@@ -17,3 +17,19 @@ python train.py --resume checkpoints/latest.pt --steps 4
 ```
 
 Para iniciar um treino de 1.000 passos com lote de oito janelas, use `python train.py --preset full --checkpoint checkpoints/full.pt`. Ajuste o passo final com `--steps` e as threads com `--threads` (padrão de duas). O corpus é original. Para usar outro arquivo UTF-8, passe `--corpus` e mantenha o mesmo arquivo ao retomar.
+
+## Experimento 002 — Padrões do português
+
+```bash
+python train.py --documents data/experiment-002 --preset full --steps 100 \
+  --eval-interval 25 --save-interval 50 --keep-checkpoints \
+  --checkpoint checkpoints/experiment-002.pt
+python generate.py checkpoints/experiment-002-0100.pt \
+  --prompt "A manhã" --tokens 40 --seed 42 --temperature 0.8
+```
+
+Em `--documents`, coloque um documento UTF-8 por arquivo `.txt` em `train/` ou `validation/`. Cada documento precisa ter pelo menos 129 caracteres. As janelas ficam dentro de cada documento. O treino rejeita duplicatas e documentos com sobreposição de pelo menos 80% das sequências distintas de cinco palavras do documento com menos sequências. Na retomada com `--resume`, mantenha os mesmos documentos, nomes, partições e número de threads.
+
+O treino registra as losses médias no passo zero, nos intervalos de avaliação e a cada salvamento. A avaliação usa quatro lotes fixos por partição. Com `--keep-checkpoints`, os arquivos numerados desta execução correspondem aos passos 0, 50 e 100.
+
+O corpus tem 444.089 caracteres e 13 documentos. Inclui 12 contos de Machado de Assis em *Papéis Avulsos* (1882), com transcrição de Laura Natal Rodrigues e Marc D’Hooghe e imagens da Biblioteca Brasiliana Guita e José Mindlin, e a narrativa de *Iracema* (1865), de José de Alencar, com transcrição de Laura Natal Rodrigues e imagens da HathiTrust Digital Library. A validação contém *A chinela turca*, *O anel de Polícrates* e *O espelho*. O texto literário mantém a ortografia da transcrição, com Unicode NFC e quebras LF. Os arquivos contêm os textos extraídos das edições, com a autoria e os créditos de digitalização registrados aqui. As obras estão em domínio público no Brasil e nos EUA. [Papéis Avulsos, Project Gutenberg](https://www.gutenberg.org/ebooks/57001) · [Iracema, Project Gutenberg](https://www.gutenberg.org/ebooks/67740) · [Lei 9.610/1998, art. 41](https://www.planalto.gov.br/ccivil_03/leis/l9610.htm#art41) · [Política do Project Gutenberg](https://www.gutenberg.org/policy/license.html)
