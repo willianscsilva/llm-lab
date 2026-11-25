@@ -33,3 +33,12 @@ Em `--documents`, coloque um documento UTF-8 por arquivo `.txt` em `train/` ou `
 O treino registra as losses médias no passo zero, nos intervalos de avaliação e a cada salvamento. A avaliação usa quatro lotes fixos por partição. Com `--keep-checkpoints`, os arquivos numerados desta execução correspondem aos passos 0, 50 e 100.
 
 O corpus tem 444.089 caracteres e 13 documentos. Inclui 12 contos de Machado de Assis em *Papéis Avulsos* (1882), com transcrição de Laura Natal Rodrigues e Marc D’Hooghe e imagens da Biblioteca Brasiliana Guita e José Mindlin, e a narrativa de *Iracema* (1865), de José de Alencar, com transcrição de Laura Natal Rodrigues e imagens da HathiTrust Digital Library. A validação contém *A chinela turca*, *O anel de Polícrates* e *O espelho*. O texto literário mantém a ortografia da transcrição, com Unicode NFC e quebras LF. Os arquivos contêm os textos extraídos das edições, com a autoria e os créditos de digitalização registrados aqui. As obras estão em domínio público no Brasil e nos EUA. [Papéis Avulsos, Project Gutenberg](https://www.gutenberg.org/ebooks/57001) · [Iracema, Project Gutenberg](https://www.gutenberg.org/ebooks/67740) · [Lei 9.610/1998, art. 41](https://www.planalto.gov.br/ccivil_03/leis/l9610.htm#art41) · [Política do Project Gutenberg](https://www.gutenberg.org/policy/license.html)
+
+### Resultados em CPU
+
+| Fase | Passos acumulados | Loss média de treino | Loss de validação (4 lotes) | Perplexidade por caractere (validação) | Tempo total | Tokens/s nas atualizações | Pico de memória |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 1 | 0 → 100 | 4,7797 → 2,6049 | 4,7717 → 2,6456 | 118,12 → 14,09 | 34,04 s | 4.011 | 425 MiB |
+| 2 | 100 → 1.000 | 2,6049 → 2,3513 | 2,6456 → 2,3816 | 14,09 → 10,82 | 221,25 s | 4.454 | 435 MiB |
+
+A fase 2 retomou o checkpoint 100 com o AdamW e os geradores aleatórios restaurados. Em 64 lotes fixos de validação, a loss foi 4,7734 no passo 0, 2,6715 no passo 100 e 2,4212 no passo 1.000. A perplexidade final nessa avaliação foi 11,26. As duas avaliações medem previsão de caracteres em prosa literária do século XIX.
