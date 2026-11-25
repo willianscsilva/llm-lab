@@ -12,6 +12,19 @@ from generate import Vocabulary, generate, load_checkpoint
 from model import CausalTransformer, Config
 
 
+FINGERPRINT_KEYS = {"corpus": "corpus_sha256", "documents": "document_sha256"}
+
+
+def validate_fingerprint(saved, data_mode, digest):
+    key = FINGERPRINT_KEYS[data_mode]
+    saved_keys = saved.keys() & FINGERPRINT_KEYS.values()
+    # Checkpoints anteriores identificam a modalidade pela chave do hash.
+    if saved_keys != {key} or saved.get("data_mode", data_mode) != data_mode:
+        raise ValueError("A modalidade de dados difere da usada no checkpoint ou é inválida.")
+    if saved[key] != digest:
+        raise ValueError("O corpus difere do corpus usado no checkpoint.")
+
+
 def loss_on(model, data, batch_size, rng):
     x, y = data.sample(model.config.context, batch_size, rng)
     return F.cross_entropy(model(x).flatten(0, 1), y.flatten())
@@ -19,9 +32,13 @@ def loss_on(model, data, batch_size, rng):
 
 @torch.inference_mode()
 def evaluate(model, data, batch_size, seed):
-    model.eval()
-    rng = torch.Generator().manual_seed(seed)
-    return sum(loss_on(model, data, batch_size, rng).item() for _ in range(4)) / 4
+    was_training = model.training
+    try:
+        model.eval()
+        rng = torch.Generator().manual_seed(seed)
+        return sum(loss_on(model, data, batch_size, rng).item() for _ in range(4)) / 4
+    finally:
+        model.train(was_training)
 
 
 def save_checkpoint(path, state):
@@ -69,17 +86,18 @@ def main():
     context = saved["config"]["context"] if saved else Config(0).context
     try:
         if args.documents:
-            train_docs, val_docs, hashes = read_documents(args.documents, context)
-            fingerprint = {"document_sha256": hashes}
+            data_mode = "documents"
+            train_docs, val_docs, digest = read_documents(args.documents, context)
         else:
+            data_mode = "corpus"
             text = args.corpus.read_text(encoding="utf-8")
             split = int(len(text) * 0.9)
             train_docs, val_docs = [text[:split]], [text[split:]]
-            fingerprint = {"corpus_sha256": sha256(text.encode("utf-8")).hexdigest()}
+            digest = sha256(text.encode("utf-8")).hexdigest()
+        if saved:
+            validate_fingerprint(saved, data_mode, digest)
     except (OSError, ValueError) as error:
         parser.error(str(error))
-    if saved and any(saved.get(key) != value for key, value in fingerprint.items()):
-        parser.error("O corpus difere do corpus usado no checkpoint.")
     if any(len(doc) <= context for doc in train_docs + val_docs):
         parser.error("Cada documento ou partição deve conter pelo menos contexto + 1 caracteres.")
     characters = saved["vocabulary"] if saved else ["�", *sorted(set("".join(train_docs)) - {"�"})]
@@ -133,7 +151,8 @@ def main():
                 "model": model.state_dict(), "optimizer": optimizer.state_dict(),
                 "config": asdict(config), "vocabulary": characters, "step": step,
                 "seed": seed, "batch_size": batch_size, "threads": args.threads,
-                **fingerprint, "torch_rng": torch.get_rng_state(),
+                "data_mode": data_mode, FINGERPRINT_KEYS[data_mode]: digest,
+                "torch_rng": torch.get_rng_state(),
                 "train_rng": train_rng.get_state(),
                 "train_loss": train_loss, "val_loss": val_loss,
             }
