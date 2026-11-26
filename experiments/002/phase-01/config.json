@@ -1,0 +1,40 @@
+{
+  "config": {
+    "vocab_size": 101,
+    "context": 128,
+    "width": 128,
+    "layers": 4,
+    "heads": 4,
+    "dropout": 0.1
+  },
+  "document_sha256": {
+    "train/a-serenissima-republica.txt": "5c37a9ca0117a6038b349cc8147125440da2de284ddad386be4b081079e72214",
+    "train/d-benedicta.txt": "41d5db4c5703337d09b08b17171cfeb0ee7447f3a768f32852c56fcaa9c9dc64",
+    "train/iracema.txt": "fcaf5aa0d3b487136f814c1c190d6a2a702e1d64151b27da361de0b0b213ab44",
+    "train/na-arca.txt": "3a3a1a19f3ffe4ee96c9b26b099fcea3e8ecb14a279ac4ca57e0edb46ea0a5ad",
+    "train/o-alienista.txt": "f38ae27dc64a706dc2430cae51aff0f6ccf29a73b1e5ee711c203f3a2471fe87",
+    "train/o-emprestimo.txt": "aa32e57583913e6ef4127944ce9ffd2960c83b0a4e5136390194c7734c2728ca",
+    "train/o-segredo-do-bonzo.txt": "07e1bf369e66daa18359d8e57454503ca3c8821c46c0eccc7a276f5ce6bab9d0",
+    "train/theoria-do-medalhao.txt": "ad34afe3e49affadcf5c4fcd5854f1e9bfd6a7dc0c23639387feba11eb3bf66b",
+    "train/uma-visita-de-alcibiades.txt": "53eb914e62e013bb109ac86df95b34845ce2e82223e3302f025552990e632baf",
+    "train/verba-testamentaria.txt": "e57406df563cf04fb07646492a4e44c0dc603fa08d52d978c5676575f4160f94",
+    "validation/a-chinela-turca.txt": "fc1231a65fa46a790a00fdb06ead9a61364f4a7a38025e5372f6ccc61a3c2a05",
+    "validation/o-annel-de-polycrates.txt": "96f471528707f2d15e125a6c4b2d10b5b4114a695b63ff19ac848279c25569eb",
+    "validation/o-espelho.txt": "4252f97236818069f7256a3b919ff928f871b7af0127cc20a83d3e7087281607"
+  },
+  "threads": 2,
+  "batch_size": 8,
+  "seed": 42,
+  "parameters": 835685,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0003,
+  "start_step": 0,
+  "final_step": 100,
+  "evaluation_interval": 25,
+  "checkpoint_interval": 50,
+  "evaluation_batches": 4,
+  "train_eval_seed": 44,
+  "validation_seed": 43,
+  "device": "cpu",
+  "provenance": "Configuração extraída do checkpoint final e dos comandos registrados na fase."
+}

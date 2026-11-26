@@ -1,0 +1,489 @@
+{
+  "external": {
+    "documents": 3,
+    "characters": 79538,
+    "windows": 79154,
+    "unknown_characters": 2,
+    "unknown_fraction": 2.5145213608589605e-05
+  },
+  "external_seed": 45,
+  "train_seed": 44,
+  "validation_seed": 43,
+  "prompt_comparison": {
+    "1000": {
+      "top_10": {
+        "O homem": [
+          {
+            "character": " ",
+            "probability": 0.6276682994820468
+          },
+          {
+            "character": "a",
+            "probability": 0.07745935816407908
+          },
+          {
+            "character": "e",
+            "probability": 0.04946523795507807
+          },
+          {
+            "character": "o",
+            "probability": 0.03814309685412746
+          },
+          {
+            "character": "p",
+            "probability": 0.03303416700010082
+          },
+          {
+            "character": "i",
+            "probability": 0.026915933069839564
+          },
+          {
+            "character": "b",
+            "probability": 0.026747055877274516
+          },
+          {
+            "character": "\n",
+            "probability": 0.026585772495590812
+          },
+          {
+            "character": ",",
+            "probability": 0.017731050059186505
+          },
+          {
+            "character": "u",
+            "probability": 0.013922557401184721
+          }
+        ],
+        "Na cidade": [
+          {
+            "character": " ",
+            "probability": 0.45636580135796606
+          },
+          {
+            "character": "\n",
+            "probability": 0.08875076676473341
+          },
+          {
+            "character": "s",
+            "probability": 0.08189338755468176
+          },
+          {
+            "character": "n",
+            "probability": 0.058215456915998026
+          },
+          {
+            "character": "r",
+            "probability": 0.04782027027807433
+          },
+          {
+            "character": ",",
+            "probability": 0.047434522977390814
+          },
+          {
+            "character": "m",
+            "probability": 0.03502639397973211
+          },
+          {
+            "character": ".",
+            "probability": 0.03055934208342973
+          },
+          {
+            "character": "i",
+            "probability": 0.02243710802574877
+          },
+          {
+            "character": "l",
+            "probability": 0.017712844979777848
+          }
+        ],
+        "A mulher": [
+          {
+            "character": " ",
+            "probability": 0.3202860482757741
+          },
+          {
+            "character": "a",
+            "probability": 0.15425542753421823
+          },
+          {
+            "character": "e",
+            "probability": 0.06683044867351083
+          },
+          {
+            "character": "i",
+            "probability": 0.0597035555520693
+          },
+          {
+            "character": "t",
+            "probability": 0.048579862624638884
+          },
+          {
+            "character": "o",
+            "probability": 0.046947507859402264
+          },
+          {
+            "character": ",",
+            "probability": 0.04032277506603993
+          },
+          {
+            "character": "r",
+            "probability": 0.032153224277074795
+          },
+          {
+            "character": ".",
+            "probability": 0.029402221792997726
+          },
+          {
+            "character": "m",
+            "probability": 0.026105228275374485
+          }
+        ],
+        "A manhã": [
+          {
+            "character": "o",
+            "probability": 0.8462673510419579
+          },
+          {
+            "character": "e",
+            "probability": 0.033176211555265754
+          },
+          {
+            "character": " ",
+            "probability": 0.03048151261065288
+          },
+          {
+            "character": "a",
+            "probability": 0.007803770795229132
+          },
+          {
+            "character": "\n",
+            "probability": 0.007620538915646817
+          },
+          {
+            "character": ".",
+            "probability": 0.00613315705864598
+          },
+          {
+            "character": ",",
+            "probability": 0.006020752715272333
+          },
+          {
+            "character": "i",
+            "probability": 0.004779460792681083
+          },
+          {
+            "character": "-",
+            "probability": 0.0035393706746654377
+          },
+          {
+            "character": "p",
+            "probability": 0.0031800810465572723
+          }
+        ],
+        "A noite": [
+          {
+            "character": " ",
+            "probability": 0.3842985273616982
+          },
+          {
+            "character": "n",
+            "probability": 0.0979949035973203
+          },
+          {
+            "character": "s",
+            "probability": 0.09687780097806584
+          },
+          {
+            "character": "r",
+            "probability": 0.07598423987751504
+          },
+          {
+            "character": "m",
+            "probability": 0.04343863555790621
+          },
+          {
+            "character": "\n",
+            "probability": 0.04159455391842803
+          },
+          {
+            "character": "i",
+            "probability": 0.0364265754243497
+          },
+          {
+            "character": "l",
+            "probability": 0.031867662925051624
+          },
+          {
+            "character": ",",
+            "probability": 0.02867444245215584
+          },
+          {
+            "character": "u",
+            "probability": 0.01896240746650378
+          }
+        ]
+      },
+      "pairs": [
+        {
+          "prompts": [
+            "O homem",
+            "Na cidade"
+          ],
+          "jensen_shannon_nats": 0.1597024995905697
+        },
+        {
+          "prompts": [
+            "O homem",
+            "A mulher"
+          ],
+          "jensen_shannon_nats": 0.09553849208436697
+        },
+        {
+          "prompts": [
+            "A manhã",
+            "A noite"
+          ],
+          "jensen_shannon_nats": 0.5547081447155626
+        }
+      ]
+    },
+    "5000": {
+      "top_10": {
+        "O homem": [
+          {
+            "character": " ",
+            "probability": 0.6275997377733298
+          },
+          {
+            "character": "o",
+            "probability": 0.08011479048278355
+          },
+          {
+            "character": ",",
+            "probability": 0.07804700039090419
+          },
+          {
+            "character": "e",
+            "probability": 0.07071727221207678
+          },
+          {
+            "character": "p",
+            "probability": 0.04050880892735206
+          },
+          {
+            "character": "\n",
+            "probability": 0.0243192604627707
+          },
+          {
+            "character": ".",
+            "probability": 0.021773521925269816
+          },
+          {
+            "character": "b",
+            "probability": 0.012932948198529992
+          },
+          {
+            "character": "a",
+            "probability": 0.009327093769449828
+          },
+          {
+            "character": "m",
+            "probability": 0.005204198818631489
+          }
+        ],
+        "Na cidade": [
+          {
+            "character": " ",
+            "probability": 0.46375044653178527
+          },
+          {
+            "character": "s",
+            "probability": 0.09062413063373947
+          },
+          {
+            "character": "r",
+            "probability": 0.07633111099355783
+          },
+          {
+            "character": ",",
+            "probability": 0.07431741374980877
+          },
+          {
+            "character": "i",
+            "probability": 0.06446290801241115
+          },
+          {
+            "character": "n",
+            "probability": 0.04667303397480492
+          },
+          {
+            "character": ".",
+            "probability": 0.03601432015112877
+          },
+          {
+            "character": "z",
+            "probability": 0.034875729877693266
+          },
+          {
+            "character": "\n",
+            "probability": 0.02306317558763299
+          },
+          {
+            "character": ";",
+            "probability": 0.016831585071559196
+          }
+        ],
+        "A mulher": [
+          {
+            "character": " ",
+            "probability": 0.45629850212193385
+          },
+          {
+            "character": "a",
+            "probability": 0.19898980977399733
+          },
+          {
+            "character": "i",
+            "probability": 0.09917546390083548
+          },
+          {
+            "character": ",",
+            "probability": 0.041550234130487515
+          },
+          {
+            "character": "\n",
+            "probability": 0.035459333717024394
+          },
+          {
+            "character": "e",
+            "probability": 0.03430428145442755
+          },
+          {
+            "character": "r",
+            "probability": 0.030552198567680648
+          },
+          {
+            "character": ".",
+            "probability": 0.023315110978418745
+          },
+          {
+            "character": "o",
+            "probability": 0.014990600998526863
+          },
+          {
+            "character": ";",
+            "probability": 0.011598441183852892
+          }
+        ],
+        "A manhã": [
+          {
+            "character": " ",
+            "probability": 0.3462646205339652
+          },
+          {
+            "character": "o",
+            "probability": 0.27309883008191294
+          },
+          {
+            "character": ",",
+            "probability": 0.15975895100415635
+          },
+          {
+            "character": ".",
+            "probability": 0.10615834512655785
+          },
+          {
+            "character": "\n",
+            "probability": 0.02916968865519123
+          },
+          {
+            "character": "r",
+            "probability": 0.021329143066806916
+          },
+          {
+            "character": ";",
+            "probability": 0.015892048051627385
+          },
+          {
+            "character": "!",
+            "probability": 0.011579355150041564
+          },
+          {
+            "character": "?",
+            "probability": 0.00795290205279125
+          },
+          {
+            "character": ":",
+            "probability": 0.005632022222531012
+          }
+        ],
+        "A noite": [
+          {
+            "character": " ",
+            "probability": 0.5697975115147738
+          },
+          {
+            "character": ",",
+            "probability": 0.13658704140899136
+          },
+          {
+            "character": ".",
+            "probability": 0.08607435967522586
+          },
+          {
+            "character": "s",
+            "probability": 0.03332302645590548
+          },
+          {
+            "character": ";",
+            "probability": 0.026894775183918782
+          },
+          {
+            "character": "r",
+            "probability": 0.02551726434816672
+          },
+          {
+            "character": "\n",
+            "probability": 0.02442911547101194
+          },
+          {
+            "character": "n",
+            "probability": 0.02263459723582532
+          },
+          {
+            "character": "i",
+            "probability": 0.015085321118359248
+          },
+          {
+            "character": ":",
+            "probability": 0.00995683201775697
+          }
+        ]
+      },
+      "pairs": [
+        {
+          "prompts": [
+            "O homem",
+            "Na cidade"
+          ],
+          "jensen_shannon_nats": 0.17807806323195283
+        },
+        {
+          "prompts": [
+            "O homem",
+            "A mulher"
+          ],
+          "jensen_shannon_nats": 0.14057665381621381
+        },
+        {
+          "prompts": [
+            "A manhã",
+            "A noite"
+          ],
+          "jensen_shannon_nats": 0.1375193121152037
+        }
+      ]
+    }
+  },
+  "seconds_including_generation": 159.87610305001726
+}

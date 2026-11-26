@@ -1,0 +1,17 @@
+Passo 0 | 40 caracteres | seed 42 | temperatura 0.8
+A manhã → "wDòy-�Yá2)êVÃa8hÃ.9Á!I744jEFUMçN_Ub7S?3s"
+Era uma vez → "w0,Z-0Tp2â�VÃí8hÃ.9L�z744jEFMqçN_UbÁS*2T"
+O homem → "wDòy-0Yp2)êVÃa8hÃ.9ÁnI744jEFUMçN_Ub7S?3s"
+Na cidade → "wDòy-gY_24\"(Ra8S*x9ÁnI744jEFUqçN_UáaS*3«"
+
+Passo 50 | 40 caracteres | seed 42 | temperatura 0.8
+A manhã → "ho, -g\npundes me m ena orjEFançsanãa\nsas"
+Era uma vez → " ., -o\ntendesa ma. ena mojE\nanço tasesa "
+O homem → " .en-g\npundes me m ena orjEFançsanãa\nsas"
+Na cidade → " ., -o\ntundesa ma. ena dejEavnçoanãa\nsa "
+
+Passo 100 | 40 caracteres | seed 42 | temperatura 0.8
+A manhã → "ho, -gumendes me m ena orjiaviçoanãa\nss "
+Era uma vez → " pen-s\npendes memo ena dojinanço tasess "
+O homem → " pen-gumendes me m ena orjiaviçoanãa\nss "
+Na cidade → " pen-go madesam mo ena dijo viçoanãosta "

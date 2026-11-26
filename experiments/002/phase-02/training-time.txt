@@ -1,0 +1,23 @@
+	Command being timed: ".venv/bin/python train.py --documents data/experiment-002 --preset full --resume checkpoints/experiment-002-0100.pt --threads 2 --steps 1000 --eval-interval 50 --save-interval 250 --keep-checkpoints --checkpoint checkpoints/experiment-002-phase2/model.pt"
+	User time (seconds): 378.62
+	System time (seconds): 7.01
+	Percent of CPU this job got: 174%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:41.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 445872
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1596909
+	Voluntary context switches: 29275
+	Involuntary context switches: 2305
+	Swaps: 0
+	File system inputs: 80
+	File system outputs: 157928
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

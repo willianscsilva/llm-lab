@@ -1,0 +1,45 @@
+{
+  "author": "Lima Barreto (1881–1922)",
+  "work": "Triste Fim de Polycarpo Quaresma (1915)",
+  "edition": "Transcrição de Laura Natal Rodrigues, com imagens da Biblioteca Nacional do Brasil",
+  "source": "https://www.gutenberg.org/ebooks/67535",
+  "download": "https://raw.githubusercontent.com/GITenberg/Triste-Fim-de-Polycarpo-Quaresma_67535/master/67535-0.txt",
+  "source_sha256": "4112224020706659b19d9873abea21d370bdc2188e0bdbf146393aeb226129fe",
+  "license": "Texto literário em domínio público no Brasil e nos EUA",
+  "license_basis": [
+    "https://www.planalto.gov.br/ccivil_03/leis/l9610.htm#art41",
+    "https://www.gutenberg.org/policy/license.html"
+  ],
+  "normalization": "Somente os capítulos I de cada parte, com ortografia da transcrição, Unicode NFC e quebras LF",
+  "characters": 79538,
+  "documents": [
+    {
+      "filename": "parte-1-capitulo-1.txt",
+      "chapter_title": "A LIÇÃO DE VIOLÃO",
+      "characters": 25856,
+      "sha256": "c86fb2abe4282f0187b47b01450efd326e70bf2926388de0008617bf81f236ab"
+    },
+    {
+      "filename": "parte-2-capitulo-1.txt",
+      "chapter_title": "NO «SOCEGO»",
+      "characters": 24312,
+      "sha256": "d2d9c45036158a0147dd8f8bfed60fbe1c7dfa14729eb706e789b7b8c5d91f4f"
+    },
+    {
+      "filename": "parte-3-capitulo-1.txt",
+      "chapter_title": "PATRIOTAS",
+      "characters": 29370,
+      "sha256": "a5d08019cd171ab85190729cb3f2aa6c0eee77eca72c220bcd4e7d4640040a5e"
+    }
+  ],
+  "overlap": {
+    "criterion": "Sequências distintas de cinco palavras, divididas pelo menor conjunto",
+    "pairs_checked": 42,
+    "rejection_threshold": 0.8,
+    "maximum": 0.00022737608003638017,
+    "pair": [
+      "parte-1-capitulo-1.txt",
+      "data/experiment-002/train/o-alienista.txt"
+    ]
+  }
+}

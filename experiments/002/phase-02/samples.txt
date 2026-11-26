@@ -1,0 +1,47 @@
+Passo 100 | 40 caracteres | seed 42 | temperatura 0,8
+A manhã → "ho, -gumendes me m ena orjiaviçoanãa\nss "
+Era uma vez → " pen-s\npendes memo ena dojinanço tasess "
+O homem → " pen-gumendes me m ena orjiaviçoanãa\nss "
+Na cidade → " pen-go madesam mo ena dijo viçoanãosta "
+
+Passo 250 | 40 caracteres | seed 42 | temperatura 0,8
+A manhã → "o.,\n-s\npendes mem. ena dojiaviço tão\n-s "
+Era uma vez → " pento\npendes memo ena doja viço tão\nta "
+O homem → " pento\npendes mem. ena dojiaviço tão\n-s "
+Na cidade → " pento\npendesam mo ena dejo viçoanão\n-s "
+
+Passo 500 | 40 caracteres | seed 42 | temperatura 0,8
+A manhã → "o ento\npendes de m ena doja viçãonãosta "
+Era uma vez → " pento\npendes m m.\n\n\n\n--4jElançãonãosta "
+O homem → " pento\npendes de m ena dojElançãonãosta "
+Na cidade → " pento\npendes dem. ena doja viçãonão\n-s "
+
+Passo 750 | 40 caracteres | seed 42 | temperatura 0,8
+A manhã → "o.,\n-gimendes pem. ena doja ançãos, ess "
+Era uma vez → " pento\npendes dem.\n\n\n\n---ja poçãonãosta "
+O homem → " pento\npendesam a. ena doja ançãonão\n-s "
+Na cidade → " pento\npendes dem. ena dija vição, a\n-s "
+
+Passo 1000 | 40 caracteres | seed 42 | temperatura 0,8
+A manhã → "o.\n\n-simendes de m ena doja anço tasess "
+Era uma vez → " pento\npendes m cosena doja anço tas\ndas"
+O homem → " pento\npendes oma. entarija anço tas\nfas"
+Na cidade → " pento\npendes de maro arija anço tas\ndas"
+
+Passo 1000 | 200 caracteres | seed 42 | temperatura 0,8
+A manhã → "o.\n\n-simendes de m ena doja anço tasess canostos cos de camnteriaga e as am cás niantare raimuos corana,\no que e s lerices echos mamacos, erntides alha á.\n\nO fas conçãotitera tide ictesosmantampase es"
+Era uma vez → " pento\npendes m cosena doja anço tas\ndascanfetos cos des amntre de neras am cás nistos e raimuos coranis o que e s lere pango m\njace cos, erntides alha á.\n\nO Des conçãotitera to deico dosmantampante s"
+O homem → " pento\npendes oma. entarija anço tas\nfascanovamuma a de catille de ne a  a ve toniantare raimu ta urana,\no tas e s lericrango mos ce cou perntides alha á.\n\nO Des conçãotitera to deictedosma tampante s"
+Na cidade → " pento\npendes de maro arija anço tas\ndascanfetes cos de catille de ne as am cásoniantare raimu ta oranas, po.\n\nE s lerices echos mamacou perntides alha á.\n\nO fas conçãotitera tide ictedosmantampante s"
+
+Passo 1000 | 200 caracteres | seed 123 | temperatura 0,8
+A manhã → "o mo as de ntisto o parre do\nfescous era deinuntica. A do s Encos, s, E ma o da Cogues rire os ares\nmis que aveviana ema ba tusenteire ta untre ta tras de a onia s mes vãom va dam o te m. D------lta t"
+Era uma vez → "\nsão aso po trar do darre do festo s dos s, nuntica.\n\n--Irem cosesco, E mão seno cgu s rime os areso denão oma. A pa Sedaba tusentes eres vas,\ndo s ras es a onia s mes vãomula cam o te ma D-s tentea t"
+O homem → "\nsão as de ntisto o parre do a prous era deinuntica.\n\n------E co sco, E ma o da Cogues rire os are o denda oma. pana ema ba tusentesaerta va llla stra o s a o\nia s mes vãomuva cam Tute ma D. deno tart"
+Na cidade → "\nsão as detendor a va dade nta pro aco dis, nuntica.\n\n-----------s'e do ma o da Coguma rime os are o dez a oma. pana oma ba tusentes erta va lllte tra o s a o\nia s mes vãomuva dam Tute ma D. deno tart"
+
+Passo 1000 | 200 caracteres | seed 2026 | temperatura 0,8
+A manhã → "o serm\nfem llmo.\n-------Ges dicino m a tão nuna a ctica dentospa a lao, dellho u tos micacomabrira fu tamam\noste deus doro nia de igemas á.\n\n--Tundema m dapo eiqus o beirro dale. s Atunta Ca queras é "
+Era uma vez → " os; mirem llm co m seim es dico o m a tão nu-m a ctica de lhena a lho, nelllheu\ncoz micaco s dira durtem anoste deus domo nia de igema di.\n\n--Tundema m dapo eiqusonão é do dale. s Atunta Ca queras é "
+O homem → " os rmirem llm co a seim es dico o m a tão nuna a ctica dentospa\na lao, ns diseueros micacomabrira fu tamamaostes ndu doro nia do igemas á.\n\n--Tundema m dapo eique o beirro dale. s Atunta Ca queras é "
+Na cidade → " dende\nfem llm co a s am ro dicino m a tão nuna a ctica do lospa a lao, delllheumado pica des\ndira fures ganoste deus domo nia de igro ema.\n\n--Tundema m dapo eique o beirro dale. s Atunta Ca queras é "

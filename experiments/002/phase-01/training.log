@@ -1,0 +1,34 @@
+.venv/lib/python3.10/site-packages/torch/_subclasses/functional_tensor.py:368: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+CPU | parâmetros=835,685 | vocabulário=101 | passo_inicial=0
+treino | documentos=10 | caracteres=382943 | desconhecidos=0/382943 (0.0000%) | janelas=381663
+validação | documentos=3 | caracteres=61146 | desconhecidos=5/61146 (0.0082%) | janelas=60762
+passo=0 treino_médio=4.7797 validação=4.7717 tempo=3.14s
+passo=25 minibatch=3.1527 tokens/s=3908 treino_médio=3.1537 validação=3.1742 tempo=10.17s
+passo=50 minibatch=2.8776 tokens/s=3988 treino_médio=2.8338 validação=2.8723 tempo=16.94s
+passo=75 minibatch=2.6798 tokens/s=4010 treino_médio=2.6807 validação=2.7248 tempo=23.79s
+passo=100 minibatch=2.6738 tokens/s=4011 treino_médio=2.6049 validação=2.6456 tempo=30.64s
+Checkpoint: checkpoints/experiment-002.pt | tempo total=30.97s
+	Command being timed: ".venv/bin/python train.py --documents data/experiment-002 --preset full --steps 100 --eval-interval 25 --save-interval 50 --keep-checkpoints --checkpoint checkpoints/experiment-002.pt"
+	User time (seconds): 54.04
+	System time (seconds): 1.37
+	Percent of CPU this job got: 162%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:34.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 435480
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 230890
+	Voluntary context switches: 2941
+	Involuntary context switches: 524
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 85584
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

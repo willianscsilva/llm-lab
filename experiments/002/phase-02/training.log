@@ -1,0 +1,24 @@
+.venv/lib/python3.10/site-packages/torch/_subclasses/functional_tensor.py:368: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+CPU | parâmetros=835,685 | vocabulário=101 | passo_inicial=100
+treino | documentos=10 | caracteres=382943 | desconhecidos=0/382943 (0.0000%) | janelas=381663
+validação | documentos=3 | caracteres=61146 | desconhecidos=5/61146 (0.0082%) | janelas=60762
+passo=150 minibatch=2.6440 tokens/s=4031 treino_médio=2.5318 validação=2.5700 tempo=15.95s
+passo=200 minibatch=2.5409 tokens/s=4053 treino_médio=2.4968 validação=2.5242 tempo=29.02s
+passo=250 minibatch=2.5065 tokens/s=4059 treino_médio=2.4767 validação=2.4941 tempo=42.10s
+passo=300 minibatch=2.5344 tokens/s=4049 treino_médio=2.4529 validação=2.4717 tempo=55.42s
+passo=350 minibatch=2.4517 tokens/s=4039 treino_médio=2.4425 validação=2.4641 tempo=68.73s
+passo=400 minibatch=2.4305 tokens/s=4044 treino_médio=2.4322 validação=2.4562 tempo=81.81s
+passo=450 minibatch=2.3872 tokens/s=4029 treino_médio=2.4179 validação=2.4443 tempo=95.41s
+passo=500 minibatch=2.3775 tokens/s=4038 treino_médio=2.4156 validação=2.4356 tempo=108.40s
+passo=550 minibatch=2.4577 tokens/s=4037 treino_médio=2.4055 validação=2.4303 tempo=121.76s
+passo=600 minibatch=2.4182 tokens/s=4086 treino_médio=2.4004 validação=2.4274 tempo=133.29s
+passo=650 minibatch=2.4421 tokens/s=4150 treino_médio=2.3986 validação=2.4167 tempo=144.08s
+passo=700 minibatch=2.3871 tokens/s=4211 treino_médio=2.3912 validação=2.4128 tempo=154.66s
+passo=750 minibatch=2.3575 tokens/s=4265 treino_médio=2.3834 validação=2.4033 tempo=165.24s
+passo=800 minibatch=2.4228 tokens/s=4312 treino_médio=2.3859 validação=2.4053 tempo=175.90s
+passo=850 minibatch=2.3637 tokens/s=4356 treino_médio=2.3739 validação=2.3947 tempo=186.39s
+passo=900 minibatch=2.3422 tokens/s=4393 treino_médio=2.3600 validação=2.3945 tempo=196.93s
+passo=950 minibatch=2.3796 tokens/s=4426 treino_médio=2.3613 validação=2.3895 tempo=207.51s
+passo=1000 minibatch=2.3341 tokens/s=4454 treino_médio=2.3513 validação=2.3816 tempo=218.16s
+Checkpoint: checkpoints/experiment-002-phase2/model.pt | tempo total=218.26s

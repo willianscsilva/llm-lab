@@ -1,0 +1,474 @@
+{
+  "training": [
+    {
+      "step": 150,
+      "minibatch_loss": 2.644,
+      "update_tokens_per_second": 4031,
+      "train_loss_4": 2.5318,
+      "validation_loss_4": 2.57,
+      "validation_perplexity_4": 13.065824440934556,
+      "elapsed_seconds": 15.95
+    },
+    {
+      "step": 200,
+      "minibatch_loss": 2.5409,
+      "update_tokens_per_second": 4053,
+      "train_loss_4": 2.4968,
+      "validation_loss_4": 2.5242,
+      "validation_perplexity_4": 12.480906543416731,
+      "elapsed_seconds": 29.02
+    },
+    {
+      "step": 250,
+      "minibatch_loss": 2.5065,
+      "update_tokens_per_second": 4059,
+      "train_loss_4": 2.4767,
+      "validation_loss_4": 2.4941,
+      "validation_perplexity_4": 12.110828866252328,
+      "elapsed_seconds": 42.1
+    },
+    {
+      "step": 300,
+      "minibatch_loss": 2.5344,
+      "update_tokens_per_second": 4049,
+      "train_loss_4": 2.4529,
+      "validation_loss_4": 2.4717,
+      "validation_perplexity_4": 11.842562104414586,
+      "elapsed_seconds": 55.42
+    },
+    {
+      "step": 350,
+      "minibatch_loss": 2.4517,
+      "update_tokens_per_second": 4039,
+      "train_loss_4": 2.4425,
+      "validation_loss_4": 2.4641,
+      "validation_perplexity_4": 11.752899780824917,
+      "elapsed_seconds": 68.73
+    },
+    {
+      "step": 400,
+      "minibatch_loss": 2.4305,
+      "update_tokens_per_second": 4044,
+      "train_loss_4": 2.4322,
+      "validation_loss_4": 2.4562,
+      "validation_perplexity_4": 11.660417657925457,
+      "elapsed_seconds": 81.81
+    },
+    {
+      "step": 450,
+      "minibatch_loss": 2.3872,
+      "update_tokens_per_second": 4029,
+      "train_loss_4": 2.4179,
+      "validation_loss_4": 2.4443,
+      "validation_perplexity_4": 11.52248103844527,
+      "elapsed_seconds": 95.41
+    },
+    {
+      "step": 500,
+      "minibatch_loss": 2.3775,
+      "update_tokens_per_second": 4038,
+      "train_loss_4": 2.4156,
+      "validation_loss_4": 2.4356,
+      "validation_perplexity_4": 11.42267025985336,
+      "elapsed_seconds": 108.4
+    },
+    {
+      "step": 550,
+      "minibatch_loss": 2.4577,
+      "update_tokens_per_second": 4037,
+      "train_loss_4": 2.4055,
+      "validation_loss_4": 2.4303,
+      "validation_perplexity_4": 11.362290255826268,
+      "elapsed_seconds": 121.76
+    },
+    {
+      "step": 600,
+      "minibatch_loss": 2.4182,
+      "update_tokens_per_second": 4086,
+      "train_loss_4": 2.4004,
+      "validation_loss_4": 2.4274,
+      "validation_perplexity_4": 11.329387346362548,
+      "elapsed_seconds": 133.29
+    },
+    {
+      "step": 650,
+      "minibatch_loss": 2.4421,
+      "update_tokens_per_second": 4150,
+      "train_loss_4": 2.3986,
+      "validation_loss_4": 2.4167,
+      "validation_perplexity_4": 11.208809145545166,
+      "elapsed_seconds": 144.08
+    },
+    {
+      "step": 700,
+      "minibatch_loss": 2.3871,
+      "update_tokens_per_second": 4211,
+      "train_loss_4": 2.3912,
+      "validation_loss_4": 2.4128,
+      "validation_perplexity_4": 11.165179922163158,
+      "elapsed_seconds": 154.66
+    },
+    {
+      "step": 750,
+      "minibatch_loss": 2.3575,
+      "update_tokens_per_second": 4265,
+      "train_loss_4": 2.3834,
+      "validation_loss_4": 2.4033,
+      "validation_perplexity_4": 11.059612949970933,
+      "elapsed_seconds": 165.24
+    },
+    {
+      "step": 800,
+      "minibatch_loss": 2.4228,
+      "update_tokens_per_second": 4312,
+      "train_loss_4": 2.3859,
+      "validation_loss_4": 2.4053,
+      "validation_perplexity_4": 11.0817543098503,
+      "elapsed_seconds": 175.9
+    },
+    {
+      "step": 850,
+      "minibatch_loss": 2.3637,
+      "update_tokens_per_second": 4356,
+      "train_loss_4": 2.3739,
+      "validation_loss_4": 2.3947,
+      "validation_perplexity_4": 10.964908093182252,
+      "elapsed_seconds": 186.39
+    },
+    {
+      "step": 900,
+      "minibatch_loss": 2.3422,
+      "update_tokens_per_second": 4393,
+      "train_loss_4": 2.36,
+      "validation_loss_4": 2.3945,
+      "validation_perplexity_4": 10.962715330847159,
+      "elapsed_seconds": 196.93
+    },
+    {
+      "step": 950,
+      "minibatch_loss": 2.3796,
+      "update_tokens_per_second": 4426,
+      "train_loss_4": 2.3613,
+      "validation_loss_4": 2.3895,
+      "validation_perplexity_4": 10.908038560029858,
+      "elapsed_seconds": 207.51
+    },
+    {
+      "step": 1000,
+      "minibatch_loss": 2.3341,
+      "update_tokens_per_second": 4454,
+      "train_loss_4": 2.3513,
+      "validation_loss_4": 2.3816,
+      "validation_perplexity_4": 10.822204546168315,
+      "elapsed_seconds": 218.16
+    }
+  ],
+  "checkpoint_evaluation": [
+    {
+      "step": 0,
+      "train_loss_4": 4.779743194580078,
+      "validation_loss_4": 4.7716991901397705,
+      "validation_perplexity_4": 118.11977950135523,
+      "validation_loss_64": 4.77339056879282,
+      "validation_perplexity_64": 118.3197338264768
+    },
+    {
+      "step": 100,
+      "train_loss_4": 2.6049481630325317,
+      "validation_loss_4": 2.645621180534363,
+      "validation_perplexity_4": 14.092196162785593,
+      "validation_loss_64": 2.6715330854058266,
+      "validation_perplexity_64": 14.46212387700519
+    },
+    {
+      "step": 250,
+      "train_loss_4": 2.476675271987915,
+      "validation_loss_4": 2.4940727949142456,
+      "validation_perplexity_4": 12.110499394596138,
+      "validation_loss_64": 2.529507577419281,
+      "validation_perplexity_64": 12.547326028516624
+    },
+    {
+      "step": 500,
+      "train_loss_4": 2.4156129956245422,
+      "validation_loss_4": 2.435586452484131,
+      "validation_perplexity_4": 11.422515512094973,
+      "validation_loss_64": 2.482573390007019,
+      "validation_perplexity_64": 11.972033521845265
+    },
+    {
+      "step": 750,
+      "train_loss_4": 2.383359134197235,
+      "validation_loss_4": 2.403312921524048,
+      "validation_perplexity_4": 11.059755857948916,
+      "validation_loss_64": 2.4491178914904594,
+      "validation_perplexity_64": 11.578129047181127
+    },
+    {
+      "step": 1000,
+      "train_loss_4": 2.3513171672821045,
+      "validation_loss_4": 2.381626009941101,
+      "validation_perplexity_4": 10.822486034731877,
+      "validation_loss_64": 2.4211528562009335,
+      "validation_perplexity_64": 11.258831649709386
+    }
+  ],
+  "samples": [
+    {
+      "step": 100,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "A manhã",
+      "continuation": "ho, -gumendes me m ena orjiaviçoanãa\nss "
+    },
+    {
+      "step": 100,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "Era uma vez",
+      "continuation": " pen-s\npendes memo ena dojinanço tasess "
+    },
+    {
+      "step": 100,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "O homem",
+      "continuation": " pen-gumendes me m ena orjiaviçoanãa\nss "
+    },
+    {
+      "step": 100,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "Na cidade",
+      "continuation": " pen-go madesam mo ena dijo viçoanãosta "
+    },
+    {
+      "step": 250,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "A manhã",
+      "continuation": "o.,\n-s\npendes mem. ena dojiaviço tão\n-s "
+    },
+    {
+      "step": 250,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "Era uma vez",
+      "continuation": " pento\npendes memo ena doja viço tão\nta "
+    },
+    {
+      "step": 250,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "O homem",
+      "continuation": " pento\npendes mem. ena dojiaviço tão\n-s "
+    },
+    {
+      "step": 250,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "Na cidade",
+      "continuation": " pento\npendesam mo ena dejo viçoanão\n-s "
+    },
+    {
+      "step": 500,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "A manhã",
+      "continuation": "o ento\npendes de m ena doja viçãonãosta "
+    },
+    {
+      "step": 500,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "Era uma vez",
+      "continuation": " pento\npendes m m.\n\n\n\n--4jElançãonãosta "
+    },
+    {
+      "step": 500,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "O homem",
+      "continuation": " pento\npendes de m ena dojElançãonãosta "
+    },
+    {
+      "step": 500,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "Na cidade",
+      "continuation": " pento\npendes dem. ena doja viçãonão\n-s "
+    },
+    {
+      "step": 750,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "A manhã",
+      "continuation": "o.,\n-gimendes pem. ena doja ançãos, ess "
+    },
+    {
+      "step": 750,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "Era uma vez",
+      "continuation": " pento\npendes dem.\n\n\n\n---ja poçãonãosta "
+    },
+    {
+      "step": 750,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "O homem",
+      "continuation": " pento\npendesam a. ena doja ançãonão\n-s "
+    },
+    {
+      "step": 750,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "Na cidade",
+      "continuation": " pento\npendes dem. ena dija vição, a\n-s "
+    },
+    {
+      "step": 1000,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "A manhã",
+      "continuation": "o.\n\n-simendes de m ena doja anço tasess "
+    },
+    {
+      "step": 1000,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "Era uma vez",
+      "continuation": " pento\npendes m cosena doja anço tas\ndas"
+    },
+    {
+      "step": 1000,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "O homem",
+      "continuation": " pento\npendes oma. entarija anço tas\nfas"
+    },
+    {
+      "step": 1000,
+      "count": 40,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "Na cidade",
+      "continuation": " pento\npendes de maro arija anço tas\ndas"
+    },
+    {
+      "step": 1000,
+      "count": 200,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "A manhã",
+      "continuation": "o.\n\n-simendes de m ena doja anço tasess canostos cos de camnteriaga e as am cás niantare raimuos corana,\no que e s lerices echos mamacos, erntides alha á.\n\nO fas conçãotitera tide ictesosmantampase es"
+    },
+    {
+      "step": 1000,
+      "count": 200,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "Era uma vez",
+      "continuation": " pento\npendes m cosena doja anço tas\ndascanfetos cos des amntre de neras am cás nistos e raimuos coranis o que e s lere pango m\njace cos, erntides alha á.\n\nO Des conçãotitera to deico dosmantampante s"
+    },
+    {
+      "step": 1000,
+      "count": 200,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "O homem",
+      "continuation": " pento\npendes oma. entarija anço tas\nfascanovamuma a de catille de ne a  a ve toniantare raimu ta urana,\no tas e s lericrango mos ce cou perntides alha á.\n\nO Des conçãotitera to deictedosma tampante s"
+    },
+    {
+      "step": 1000,
+      "count": 200,
+      "seed": 42,
+      "temperature": 0.8,
+      "prompt": "Na cidade",
+      "continuation": " pento\npendes de maro arija anço tas\ndascanfetes cos de catille de ne as am cásoniantare raimu ta oranas, po.\n\nE s lerices echos mamacou perntides alha á.\n\nO fas conçãotitera tide ictedosmantampante s"
+    },
+    {
+      "step": 1000,
+      "count": 200,
+      "seed": 123,
+      "temperature": 0.8,
+      "prompt": "A manhã",
+      "continuation": "o mo as de ntisto o parre do\nfescous era deinuntica. A do s Encos, s, E ma o da Cogues rire os ares\nmis que aveviana ema ba tusenteire ta untre ta tras de a onia s mes vãom va dam o te m. D------lta t"
+    },
+    {
+      "step": 1000,
+      "count": 200,
+      "seed": 123,
+      "temperature": 0.8,
+      "prompt": "Era uma vez",
+      "continuation": "\nsão aso po trar do darre do festo s dos s, nuntica.\n\n--Irem cosesco, E mão seno cgu s rime os areso denão oma. A pa Sedaba tusentes eres vas,\ndo s ras es a onia s mes vãomula cam o te ma D-s tentea t"
+    },
+    {
+      "step": 1000,
+      "count": 200,
+      "seed": 123,
+      "temperature": 0.8,
+      "prompt": "O homem",
+      "continuation": "\nsão as de ntisto o parre do a prous era deinuntica.\n\n------E co sco, E ma o da Cogues rire os are o denda oma. pana ema ba tusentesaerta va llla stra o s a o\nia s mes vãomuva cam Tute ma D. deno tart"
+    },
+    {
+      "step": 1000,
+      "count": 200,
+      "seed": 123,
+      "temperature": 0.8,
+      "prompt": "Na cidade",
+      "continuation": "\nsão as detendor a va dade nta pro aco dis, nuntica.\n\n-----------s'e do ma o da Coguma rime os are o dez a oma. pana oma ba tusentes erta va lllte tra o s a o\nia s mes vãomuva dam Tute ma D. deno tart"
+    },
+    {
+      "step": 1000,
+      "count": 200,
+      "seed": 2026,
+      "temperature": 0.8,
+      "prompt": "A manhã",
+      "continuation": "o serm\nfem llmo.\n-------Ges dicino m a tão nuna a ctica dentospa a lao, dellho u tos micacomabrira fu tamam\noste deus doro nia de igemas á.\n\n--Tundema m dapo eiqus o beirro dale. s Atunta Ca queras é "
+    },
+    {
+      "step": 1000,
+      "count": 200,
+      "seed": 2026,
+      "temperature": 0.8,
+      "prompt": "Era uma vez",
+      "continuation": " os; mirem llm co m seim es dico o m a tão nu-m a ctica de lhena a lho, nelllheu\ncoz micaco s dira durtem anoste deus domo nia de igema di.\n\n--Tundema m dapo eiqusonão é do dale. s Atunta Ca queras é "
+    },
+    {
+      "step": 1000,
+      "count": 200,
+      "seed": 2026,
+      "temperature": 0.8,
+      "prompt": "O homem",
+      "continuation": " os rmirem llm co a seim es dico o m a tão nuna a ctica dentospa\na lao, ns diseueros micacomabrira fu tamamaostes ndu doro nia do igemas á.\n\n--Tundema m dapo eique o beirro dale. s Atunta Ca queras é "
+    },
+    {
+      "step": 1000,
+      "count": 200,
+      "seed": 2026,
+      "temperature": 0.8,
+      "prompt": "Na cidade",
+      "continuation": " dende\nfem llm co a s am ro dicino m a tão nuna a ctica do lospa a lao, delllheumado pica des\ndira fures ganoste deus domo nia de igro ema.\n\n--Tundema m dapo eique o beirro dale. s Atunta Ca queras é "
+    }
+  ]
+}

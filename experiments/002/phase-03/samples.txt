@@ -1,0 +1,65 @@
+Passo 1000 | 40 caracteres | seed 42 | temperatura 0.8
+A manhã → "o.\n\n-simendes de m ena doja anço tasess "
+Era uma vez → " pento\npendes m cosena doja anço tas\ndas"
+O homem → " pento\npendes oma. entarija anço tas\nfas"
+Na cidade → " pento\npendes de maro arija anço tas\ndas"
+
+Passo 1000 | 200 caracteres | seed 42 | temperatura 0.8
+A manhã → "o.\n\n-simendes de m ena doja anço tasess canostos cos de camnteriaga e as am cás niantare raimuos corana,\no que e s lerices echos mamacos, erntides alha á.\n\nO fas conçãotitera tide ictesosmantampase es"
+Era uma vez → " pento\npendes m cosena doja anço tas\ndascanfetos cos des amntre de neras am cás nistos e raimuos coranis o que e s lere pango m\njace cos, erntides alha á.\n\nO Des conçãotitera to deico dosmantampante s"
+O homem → " pento\npendes oma. entarija anço tas\nfascanovamuma a de catille de ne a  a ve toniantare raimu ta urana,\no tas e s lericrango mos ce cou perntides alha á.\n\nO Des conçãotitera to deictedosma tampante s"
+Na cidade → " pento\npendes de maro arija anço tas\ndascanfetes cos de catille de ne as am cásoniantare raimu ta oranas, po.\n\nE s lerices echos mamacou perntides alha á.\n\nO fas conçãotitera tide ictedosmantampante s"
+
+Passo 1000 | 200 caracteres | seed 123 | temperatura 0.8
+A manhã → "o mo as de ntisto o parre do\nfescous era deinuntica. A do s Encos, s, E ma o da Cogues rire os ares\nmis que aveviana ema ba tusenteire ta untre ta tras de a onia s mes vãom va dam o te m. D------lta t"
+Era uma vez → "\nsão aso po trar do darre do festo s dos s, nuntica.\n\n--Irem cosesco, E mão seno cgu s rime os areso denão oma. A pa Sedaba tusentes eres vas,\ndo s ras es a onia s mes vãomula cam o te ma D-s tentea t"
+O homem → "\nsão as de ntisto o parre do a prous era deinuntica.\n\n------E co sco, E ma o da Cogues rire os are o denda oma. pana ema ba tusentesaerta va llla stra o s a o\nia s mes vãomuva cam Tute ma D. deno tart"
+Na cidade → "\nsão as detendor a va dade nta pro aco dis, nuntica.\n\n-----------s'e do ma o da Coguma rime os are o dez a oma. pana oma ba tusentes erta va lllte tra o s a o\nia s mes vãomuva dam Tute ma D. deno tart"
+
+Passo 1000 | 200 caracteres | seed 2026 | temperatura 0.8
+A manhã → "o serm\nfem llmo.\n-------Ges dicino m a tão nuna a ctica dentospa a lao, dellho u tos micacomabrira fu tamam\noste deus doro nia de igemas á.\n\n--Tundema m dapo eiqus o beirro dale. s Atunta Ca queras é "
+Era uma vez → " os; mirem llm co m seim es dico o m a tão nu-m a ctica de lhena a lho, nelllheu\ncoz micaco s dira durtem anoste deus domo nia de igema di.\n\n--Tundema m dapo eiqusonão é do dale. s Atunta Ca queras é "
+O homem → " os rmirem llm co a seim es dico o m a tão nuna a ctica dentospa\na lao, ns diseueros micacomabrira fu tamamaostes ndu doro nia do igemas á.\n\n--Tundema m dapo eique o beirro dale. s Atunta Ca queras é "
+Na cidade → " dende\nfem llm co a s am ro dicino m a tão nuna a ctica do lospa a lao, delllheumado pica des\ndira fures ganoste deus domo nia de igro ema.\n\n--Tundema m dapo eique o beirro dale. s Atunta Ca queras é "
+
+Passo 2000 | 40 caracteres | seed 42 | temperatura 0.8
+A manhã → "o.\n\n--Tempens de marna deja a portão da "
+Era uma vez → " pento. Elens de marna deja\nanço tão da "
+O homem → " pento\nperdes de marna deja allo tão da "
+Na cidade → " pento. Elensam a fentarija\nanço tão da "
+
+Passo 3000 | 40 caracteres | seed 42 | temperatura 0.8
+A manhã → "o.\n\n--Tumades mão. Andarija ao sanda da "
+Era uma vez → " pento.\n\nIras mão.\n\nO grija vilhanda fas"
+O homem → " pento.\n\nIras mão.\n\n\nI\n\n\n\n\n\nMaportão da "
+Na cidade → " Dente.\n\nIras mão fentamoja acço tão da "
+
+Passo 4000 | 40 caracteres | seed 42 | temperatura 0.8
+A manhã → " pento. Endes mão fenharija ao sanda\nda "
+Era uma vez → " pento. Endes mão fenterija\nalçou, as sa"
+O homem → " pento. Endes mão fenharija ao sanda\nda "
+Na cidade → " pente. Endes mão. Andarija\nvição, assa "
+
+Passo 5000 | 40 caracteres | seed 42 | temperatura 0.8
+A manhã → " pento.\n\nEstia fartendarija ao sangava s"
+Era uma vez → " pento. Endes pertiros dijaram, atém\ndas"
+O homem → " pento\nperdes de martando, exclomplaval "
+Na cidade → " penteira desamente na mijora, o\ntão da "
+
+Passo 5000 | 200 caracteres | seed 42 | temperatura 0.8
+A manhã → " pento.\n\nEstia fartendarija ao sangava seu fetes com as matigorias negas a\nveltos atheres......--Funcias, poro e sua terranco, ou compou os nos da altara.\n\nOutas contatos de Guito intosos, marmarandes"
+Era uma vez → " pento. Endes pertiros dijaram, atém\ndas annetes, na fescadna; e gande a ambelloria na e rimeio do coniso poro\ne suante panco, outro com o vinho, ande ar de uma camação de restido intedia\nda vina que "
+O homem → " pento\nperdes de martando, exclomplaval da fetescada de camigoria a era recepetor\natrare rimeiro do comentita.\nE sella crinco pormenado a exprista de Far.\n\nO facculação de restido interiam, tão a que "
+Na cidade → " penteira desamente na mijora, o\ntão da cana.\n\n--Torra, comno e a viente a veltoria na e rimeiro do com do que e sellas panco,\noutro com o vinho, ande ar de uma camação da restida interiam, tão as\nmes"
+
+Passo 5000 | 200 caracteres | seed 123 | temperatura 0.8
+A manhã → "o do alva de um garde de e no cartas dos deixos e de esposso com\nsós, o maro da Cogita risco da respoita do mais aparam abortas, param\ntamballe a sera de os olies ambaços da contimo de mais e troveart"
+Era uma vez → "\nsão alva de um tamprar de no cartas dos de munhorios, do sua como\nsobram que não guerra vertiu:--Nim que o aliva param abartas, param tamba\nleva no alviso, o instamente de vincam o terra do conte.\n\n\n"
+O homem → "o monas de Itacta o para e no cartas dos de munticios, do sua\ncomo solo marto, de guerralmente armanticios da que param abticas, param\ntambatando que logara o instamente vezer da morte amigo.\n\n--Cam t"
+Na cidade → "r a na vulta dor ao para e no cartas dos de munhorios, do sua\ncombrio damo o da Cogita ruje os armanticios da que param abtitas, param\ntambatando que logara o instamente vezer da morte amigo.\n\n--Cam t"
+
+Passo 5000 | 200 caracteres | seed 2026 | temperatura 0.8
+A manhã → ", se muito lomo.\n\nTu rimento do godida tão nunha do songue longaria.\n\nJanda foi de supicado suas a furtim andeiro nos do ou ir\nirmigara, á Mas concienheria por que o beiro na legra do na nosa chefam\nd"
+Era uma vez → " os restamblomentos com resto cono dia tão nunha do sonçar aos\nmeio.\n\nJaphet, e e dissimentes, pração tem anos expedias movam das ignos, á Mas\nconcienherias; e que o beiro qualia distuia nos que as mã"
+O homem → " os restam lomos olhoram estricia do altão nunha do songue\nlonta a faspensa foi dado preccursado a furtica aos bolhos do ou ir\nirmigara, á Mas concienheria por que o beiro qualicos do na nosa chefam\nd"
+Na cidade → " de restanclomo.\n\nTu o meno dicia do altão nutra da sonçar ao para das muituras, por por\ncomso pração tem anos expedia; movam passigno em que conterado depura equellibeiro,\ndalicos que tencam-se as mã"
