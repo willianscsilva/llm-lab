@@ -1,0 +1,70 @@
+{
+  "manifests": {
+    "validation": {
+      "sha256": "d262c6281e18a64ced4069aa6611117d76d970e44245b63157cf3aea44ac335b",
+      "characters": 501280,
+      "within_tolerance": true
+    },
+    "holdout": {
+      "sha256": "982705d3ccbd9aaad218d9eb6090d93b4bb38c917885d5fb188267c24394e190",
+      "characters": 500836,
+      "within_tolerance": true
+    },
+    "corpus-5m": {
+      "sha256": "393cb848f1331beb24572900d3d4528b5a80f51adfeb058437eb2223d619ed5c",
+      "characters": 4515664,
+      "within_tolerance": true,
+      "combined_characters": 5016944
+    },
+    "corpus-7m": {
+      "sha256": "d712d3f569846ea2d2435614fa46018995b6bda12ce91ce86518c90aab89a371",
+      "characters": 6526605,
+      "within_tolerance": true,
+      "combined_characters": 7027885
+    },
+    "corpus-10m": {
+      "sha256": "e6dc4ed04855a6ce7238199bbaaf7b62ce84fbc4053c6d7671981c38486b2702",
+      "characters": 9564501,
+      "within_tolerance": true,
+      "combined_characters": 10065781
+    }
+  },
+  "strict_cumulative": true,
+  "cumulative": true,
+  "common_validation_identical": true,
+  "groups_disjoint": true,
+  "benchmarks": {
+    "data/experiment-002/validation/a-chinela-turca.txt": "fc1231a65fa46a790a00fdb06ead9a61364f4a7a38025e5372f6ccc61a3c2a05",
+    "data/experiment-002/validation/o-annel-de-polycrates.txt": "96f471528707f2d15e125a6c4b2d10b5b4114a695b63ff19ac848279c25569eb",
+    "data/experiment-002/validation/o-espelho.txt": "4252f97236818069f7256a3b919ff928f871b7af0127cc20a83d3e7087281607",
+    "experiments/002/phase-03/external/parte-1-capitulo-1.txt": "c86fb2abe4282f0187b47b01450efd326e70bf2926388de0008617bf81f236ab",
+    "experiments/002/phase-03/external/parte-2-capitulo-1.txt": "d2d9c45036158a0147dd8f8bfed60fbe1c7dfa14729eb706e789b7b8c5d91f4f",
+    "experiments/002/phase-03/external/parte-3-capitulo-1.txt": "a5d08019cd171ab85190729cb3f2aa6c0eee77eca72c220bcd4e7d4640040a5e"
+  },
+  "benchmark_method": "SHA-256, índice invertido com amostra de shingles de cinco palavras e hashes de parágrafos",
+  "processed_hashes_verified": true,
+  "acquired_documents": 960,
+  "accepted": 858,
+  "historical_training_documents": 10,
+  "rejected": 131,
+  "rejection_reasons": {
+    "http_404": 19,
+    "texto_curto": 104,
+    "qualidade": 3,
+    "duplicata_semelhante": 5
+  },
+  "raw_characters": 169502557,
+  "processed_characters": 11106321,
+  "quality_review": {
+    "repeated_long_paragraphs_at_least_10_percent": [],
+    "column_like_lines_at_least_50_percent": [
+      "wp-20da9af0e6e25ee5efd7"
+    ]
+  },
+  "download_bytes": 173363325,
+  "storage_bytes": 184976607,
+  "elapsed_seconds": 947.1795740899979,
+  "peak_process_rss_kib": 67712,
+  "termination": "estoque de candidatos suficiente para seleção",
+  "manifest_rebuild_seconds": 2.422056949988473
+}

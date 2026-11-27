@@ -1,0 +1,131 @@
+set,group,item,characters,unknown_count,unknown_fraction
+validation,total,,501280,994,0.0019829237152888604
+validation,category,científico e educacional,33354,66,0.001978773160640403
+validation,category,enciclopédico,142548,369,0.0025886017341527063
+validation,category,histórico e institucional,125595,192,0.0015287232772005254
+validation,category,literatura,199783,367,0.0018369931375542463
+validation,source,Project Gutenberg via GITenberg,199783,,
+validation,source,Wikipédia em português,268143,,
+validation,source,Wikivros,33354,,
+validation,author,Alfredo d’Escragnolle Taunay,199783,,
+validation,author,Colaboradores de Wikipédia em português,268143,,
+validation,author,Colaboradores de Wikivros,33354,,
+validation,license,CC BY-SA 4.0,301497,,
+validation,license,domínio público,199783,,
+holdout,total,,500836,857,0.001711138975632742
+holdout,category,científico e educacional,20746,27,0.0013014557023040586
+holdout,category,enciclopédico,284428,505,0.0017754932707047127
+holdout,category,histórico e institucional,195662,325,0.001661027690609316
+holdout,source,Wikipédia em português,480090,,
+holdout,source,Wikivros,20746,,
+holdout,author,Colaboradores de Wikipédia em português,480090,,
+holdout,author,Colaboradores de Wikivros,20746,,
+holdout,license,CC BY-SA 4.0,500836,,
+corpus-5m,total,,4515664,7121,0.0015769552384765563
+corpus-5m,category,científico e educacional,116914,421,0.003600937441196093
+corpus-5m,category,enciclopédico,1356967,3030,0.0022329209184895433
+corpus-5m,category,histórico e institucional,1378153,2741,0.0019888938310913228
+corpus-5m,category,literatura,1663630,929,0.0005584174365694296
+corpus-5m,source,Experimento 002,382943,,
+corpus-5m,source,Project Gutenberg via GITenberg,1280687,,
+corpus-5m,source,Wikipédia em português,2735120,,
+corpus-5m,source,Wikivros,116914,,
+corpus-5m,author,Alfredo d’Escragnolle Taunay,268843,,
+corpus-5m,author,Colaboradores de Wikipédia em português,2735120,,
+corpus-5m,author,Colaboradores de Wikivros,116914,,
+corpus-5m,author,José de Alencar,124554,,
+corpus-5m,author,Machado de Assis,879088,,
+corpus-5m,author,Raul Pompéia,391145,,
+corpus-5m,license,CC BY-SA 4.0,2852034,,
+corpus-5m,license,domínio público,1663630,,
+corpus-5m-combined,total,,5016944,8115,0.0016175185531271626
+corpus-5m-combined,category,científico e educacional,150268,487,0.0032408763010088643
+corpus-5m-combined,category,enciclopédico,1499515,3399,0.002266732910307666
+corpus-5m-combined,category,histórico e institucional,1503748,2933,0.0019504597844851664
+corpus-5m-combined,category,literatura,1863413,1296,0.0006954979921252025
+corpus-5m-combined,source,Experimento 002,382943,,
+corpus-5m-combined,source,Project Gutenberg via GITenberg,1480470,,
+corpus-5m-combined,source,Wikipédia em português,3003263,,
+corpus-5m-combined,source,Wikivros,150268,,
+corpus-5m-combined,author,Alfredo d’Escragnolle Taunay,468626,,
+corpus-5m-combined,author,Colaboradores de Wikipédia em português,3003263,,
+corpus-5m-combined,author,Colaboradores de Wikivros,150268,,
+corpus-5m-combined,author,José de Alencar,124554,,
+corpus-5m-combined,author,Machado de Assis,879088,,
+corpus-5m-combined,author,Raul Pompéia,391145,,
+corpus-5m-combined,license,CC BY-SA 4.0,3153531,,
+corpus-5m-combined,license,domínio público,1863413,,
+corpus-7m,total,,6526605,9788,0.0014997077347257877
+corpus-7m,category,científico e educacional,116914,421,0.003600937441196093
+corpus-7m,category,enciclopédico,2073900,4322,0.0020839963354067218
+corpus-7m,category,histórico e institucional,2239180,4102,0.0018319206137961217
+corpus-7m,category,literatura,2096611,943,0.0004497734677534364
+corpus-7m,source,Experimento 002,382943,,
+corpus-7m,source,Project Gutenberg via GITenberg,1713668,,
+corpus-7m,source,Wikipédia em português,4313080,,
+corpus-7m,source,Wikivros,116914,,
+corpus-7m,author,Alfredo d’Escragnolle Taunay,268843,,
+corpus-7m,author,Colaboradores de Wikipédia em português,4313080,,
+corpus-7m,author,Colaboradores de Wikivros,116914,,
+corpus-7m,author,José de Alencar,124554,,
+corpus-7m,author,Júlia Lopes de Almeida,432981,,
+corpus-7m,author,Machado de Assis,879088,,
+corpus-7m,author,Raul Pompéia,391145,,
+corpus-7m,license,CC BY-SA 4.0,4429994,,
+corpus-7m,license,domínio público,2096611,,
+corpus-7m-combined,total,,7027885,10782,0.0015341742216897403
+corpus-7m-combined,category,científico e educacional,150268,487,0.0032408763010088643
+corpus-7m-combined,category,enciclopédico,2216448,4691,0.002116449382074382
+corpus-7m-combined,category,histórico e institucional,2364775,4294,0.0018158175724963263
+corpus-7m-combined,category,literatura,2296394,1310,0.0005704595988319077
+corpus-7m-combined,source,Experimento 002,382943,,
+corpus-7m-combined,source,Project Gutenberg via GITenberg,1913451,,
+corpus-7m-combined,source,Wikipédia em português,4581223,,
+corpus-7m-combined,source,Wikivros,150268,,
+corpus-7m-combined,author,Alfredo d’Escragnolle Taunay,468626,,
+corpus-7m-combined,author,Colaboradores de Wikipédia em português,4581223,,
+corpus-7m-combined,author,Colaboradores de Wikivros,150268,,
+corpus-7m-combined,author,José de Alencar,124554,,
+corpus-7m-combined,author,Júlia Lopes de Almeida,432981,,
+corpus-7m-combined,author,Machado de Assis,879088,,
+corpus-7m-combined,author,Raul Pompéia,391145,,
+corpus-7m-combined,license,CC BY-SA 4.0,4731491,,
+corpus-7m-combined,license,domínio público,2296394,,
+corpus-10m,total,,9564501,15474,0.0016178575338117482
+corpus-10m,category,científico e educacional,116914,421,0.003600937441196093
+corpus-10m,category,enciclopédico,3232674,7016,0.002170339477472829
+corpus-10m,category,histórico e institucional,3645064,7075,0.0019409810088382535
+corpus-10m,category,literatura,2569849,962,0.00037434106050588967
+corpus-10m,source,Experimento 002,382943,,
+corpus-10m,source,Project Gutenberg via GITenberg,2186906,,
+corpus-10m,source,Wikipédia em português,6877738,,
+corpus-10m,source,Wikivros,116914,,
+corpus-10m,author,Alfredo d’Escragnolle Taunay,268843,,
+corpus-10m,author,Aluísio Azevedo,473238,,
+corpus-10m,author,Colaboradores de Wikipédia em português,6877738,,
+corpus-10m,author,Colaboradores de Wikivros,116914,,
+corpus-10m,author,José de Alencar,124554,,
+corpus-10m,author,Júlia Lopes de Almeida,432981,,
+corpus-10m,author,Machado de Assis,879088,,
+corpus-10m,author,Raul Pompéia,391145,,
+corpus-10m,license,CC BY-SA 4.0,6994652,,
+corpus-10m,license,domínio público,2569849,,
+corpus-10m-combined,total,,10065781,16468,0.001636037978573148
+corpus-10m-combined,category,científico e educacional,150268,487,0.0032408763010088643
+corpus-10m-combined,category,enciclopédico,3375222,7385,0.0021880042260923873
+corpus-10m-combined,category,histórico e institucional,3770659,7267,0.001927249321670297
+corpus-10m-combined,category,literatura,2769632,1329,0.0004798471421474044
+corpus-10m-combined,source,Experimento 002,382943,,
+corpus-10m-combined,source,Project Gutenberg via GITenberg,2386689,,
+corpus-10m-combined,source,Wikipédia em português,7145881,,
+corpus-10m-combined,source,Wikivros,150268,,
+corpus-10m-combined,author,Alfredo d’Escragnolle Taunay,468626,,
+corpus-10m-combined,author,Aluísio Azevedo,473238,,
+corpus-10m-combined,author,Colaboradores de Wikipédia em português,7145881,,
+corpus-10m-combined,author,Colaboradores de Wikivros,150268,,
+corpus-10m-combined,author,José de Alencar,124554,,
+corpus-10m-combined,author,Júlia Lopes de Almeida,432981,,
+corpus-10m-combined,author,Machado de Assis,879088,,
+corpus-10m-combined,author,Raul Pompéia,391145,,
+corpus-10m-combined,license,CC BY-SA 4.0,7296149,,
+corpus-10m-combined,license,domínio público,2769632,,
