@@ -1,0 +1,96 @@
+.venv/lib/python3.10/site-packages/torch/_subclasses/functional_tensor.py:368: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+Checkpoint 5000 validado. Avaliações reproduzidas: quatro={'train': 1.7792311608791351, 'validation': 1.9291735589504242}, 64={'train': 1.792270541191101, 'validation': 1.9431090001016855, 'external': 1.9578127339482307}.
+passo=5000 minibatch=None treino4=1.779231 val4=1.929174 tokens/s=0 tempo=0.00s
+val64 passo=5000 treino=1.792271 validação=1.943109 externa=1.957813 melhor=1.943109@5000 overfit=0 sem_melhora=0
+passo=5250 minibatch=1.91865074634552 treino4=1.759820 val4=1.911117 tokens/s=4071 tempo=63.38s
+passo=5500 minibatch=1.8470059633255005 treino4=1.743990 val4=1.899933 tokens/s=4087 tempo=136.92s
+val64 passo=5500 treino=1.754163 validação=1.916326 externa=1.939376 melhor=1.916326@5500 overfit=0 sem_melhora=0
+passo=5750 minibatch=1.7803817987442017 treino4=1.724102 val4=1.893662 tokens/s=4105 tempo=199.31s
+passo=6000 minibatch=1.7581597566604614 treino4=1.703628 val4=1.887451 tokens/s=3960 tempo=284.71s
+val64 passo=6000 treino=1.723531 validação=1.895673 externa=1.920797 melhor=1.895673@6000 overfit=0 sem_melhora=0
+passo=6250 minibatch=1.7404961585998535 treino4=1.687569 val4=1.866075 tokens/s=3806 tempo=363.12s
+passo=6500 minibatch=1.7453120946884155 treino4=1.672055 val4=1.852582 tokens/s=3713 tempo=453.99s
+val64 passo=6500 treino=1.690756 validação=1.868661 externa=1.900947 melhor=1.868661@6500 overfit=0 sem_melhora=0
+passo=6750 minibatch=1.701372504234314 treino4=1.657861 val4=1.846787 tokens/s=3646 tempo=532.48s
+passo=7000 minibatch=1.707674503326416 treino4=1.642683 val4=1.838617 tokens/s=3596 tempo=624.61s
+val64 passo=7000 treino=1.666097 validação=1.852701 externa=1.885761 melhor=1.852701@7000 overfit=0 sem_melhora=0
+passo=7250 minibatch=1.6673808097839355 treino4=1.622848 val4=1.833859 tokens/s=3569 tempo=701.27s
+passo=7500 minibatch=1.7893692255020142 treino4=1.614468 val4=1.822175 tokens/s=3535 tempo=793.49s
+val64 passo=7500 treino=1.642228 validação=1.836318 externa=1.878387 melhor=1.836318@7500 overfit=0 sem_melhora=0
+passo=7750 minibatch=1.6823302507400513 treino4=1.602293 val4=1.811242 tokens/s=3512 tempo=871.76s
+passo=8000 minibatch=1.6754100322723389 treino4=1.588882 val4=1.806999 tokens/s=3494 tempo=963.29s
+val64 passo=8000 treino=1.621358 validação=1.822341 externa=1.863065 melhor=1.822341@8000 overfit=0 sem_melhora=0
+passo=8250 minibatch=1.7233749628067017 treino4=1.575550 val4=1.798499 tokens/s=3480 tempo=1041.05s
+passo=8500 minibatch=1.739342212677002 treino4=1.564290 val4=1.796088 tokens/s=3465 tempo=1132.84s
+val64 passo=8500 treino=1.598797 validação=1.807888 externa=1.851406 melhor=1.807888@8500 overfit=0 sem_melhora=0
+passo=8750 minibatch=1.6336919069290161 treino4=1.565041 val4=1.787916 tokens/s=3453 tempo=1211.17s
+passo=9000 minibatch=1.7269779443740845 treino4=1.544196 val4=1.774044 tokens/s=3444 tempo=1302.56s
+val64 passo=9000 treino=1.579468 validação=1.795045 externa=1.840932 melhor=1.795045@9000 overfit=0 sem_melhora=0
+passo=9250 minibatch=1.7140668630599976 treino4=1.538405 val4=1.766860 tokens/s=3435 tempo=1381.02s
+passo=9500 minibatch=1.5853718519210815 treino4=1.532673 val4=1.762493 tokens/s=3429 tempo=1472.10s
+val64 passo=9500 treino=1.561310 validação=1.781821 externa=1.831730 melhor=1.781821@9500 overfit=0 sem_melhora=0
+passo=9750 minibatch=1.7247812747955322 treino4=1.516812 val4=1.755142 tokens/s=3424 tempo=1549.26s
+passo=10000 minibatch=1.686837077140808 treino4=1.518048 val4=1.753646 tokens/s=3418 tempo=1640.76s
+val64 passo=10000 treino=1.544809 validação=1.776289 externa=1.826601 melhor=1.776289@10000 overfit=0 sem_melhora=0
+passo=10250 minibatch=1.6787166595458984 treino4=1.507873 val4=1.750846 tokens/s=3415 tempo=1717.53s
+passo=10500 minibatch=1.687605857849121 treino4=1.497421 val4=1.737218 tokens/s=3409 tempo=1809.28s
+val64 passo=10500 treino=1.528662 validação=1.765071 externa=1.817491 melhor=1.765071@10500 overfit=0 sem_melhora=0
+passo=10750 minibatch=1.6750479936599731 treino4=1.490305 val4=1.728936 tokens/s=3407 tempo=1886.35s
+passo=11000 minibatch=1.644768476486206 treino4=1.489644 val4=1.740244 tokens/s=3404 tempo=1976.90s
+val64 passo=11000 treino=1.515023 validação=1.761930 externa=1.813232 melhor=1.761930@11000 overfit=0 sem_melhora=500
+passo=11250 minibatch=1.685933232307434 treino4=1.478573 val4=1.734848 tokens/s=3400 tempo=2054.81s
+passo=11500 minibatch=1.5558537244796753 treino4=1.485572 val4=1.720655 tokens/s=3396 tempo=2146.39s
+val64 passo=11500 treino=1.503908 validação=1.751532 externa=1.808820 melhor=1.751532@11500 overfit=0 sem_melhora=0
+passo=11750 minibatch=1.6487464904785156 treino4=1.469995 val4=1.729315 tokens/s=3393 tempo=2224.31s
+passo=12000 minibatch=1.6213613748550415 treino4=1.457304 val4=1.711802 tokens/s=3389 tempo=2316.53s
+val64 passo=12000 treino=1.491786 validação=1.738195 externa=1.794145 melhor=1.738195@12000 overfit=0 sem_melhora=0
+passo=12250 minibatch=1.6189839839935303 treino4=1.458908 val4=1.727818 tokens/s=3385 tempo=2394.69s
+passo=12500 minibatch=1.6544376611709595 treino4=1.451351 val4=1.714446 tokens/s=3383 tempo=2485.77s
+val64 passo=12500 treino=1.476703 validação=1.736586 externa=1.795667 melhor=1.736586@12500 overfit=0 sem_melhora=500
+passo=12750 minibatch=1.5818169116973877 treino4=1.449019 val4=1.712133 tokens/s=3380 tempo=2564.13s
+passo=13000 minibatch=1.5021940469741821 treino4=1.443287 val4=1.708026 tokens/s=3378 tempo=2655.14s
+val64 passo=13000 treino=1.468900 validação=1.735907 externa=1.793385 melhor=1.735907@13000 overfit=0 sem_melhora=1000
+passo=13250 minibatch=1.4804763793945312 treino4=1.433982 val4=1.705819 tokens/s=3376 tempo=2733.00s
+passo=13500 minibatch=1.4699602127075195 treino4=1.435505 val4=1.702776 tokens/s=3374 tempo=2824.54s
+val64 passo=13500 treino=1.461890 validação=1.730481 externa=1.789755 melhor=1.730481@13500 overfit=0 sem_melhora=0
+passo=13750 minibatch=1.5112489461898804 treino4=1.424813 val4=1.694979 tokens/s=3372 tempo=2902.57s
+passo=14000 minibatch=1.4940029382705688 treino4=1.419626 val4=1.693639 tokens/s=3372 tempo=2992.96s
+val64 passo=14000 treino=1.443877 validação=1.715357 externa=1.776176 melhor=1.715357@14000 overfit=0 sem_melhora=0
+passo=14250 minibatch=1.6085330247879028 treino4=1.416809 val4=1.684210 tokens/s=3370 tempo=3071.30s
+passo=14500 minibatch=1.6259841918945312 treino4=1.406533 val4=1.685746 tokens/s=3369 tempo=3161.26s
+val64 passo=14500 treino=1.437147 validação=1.711303 externa=1.774050 melhor=1.711303@14500 overfit=0 sem_melhora=500
+passo=14750 minibatch=1.505666971206665 treino4=1.405513 val4=1.685340 tokens/s=3367 tempo=3239.60s
+passo=15000 minibatch=1.5740082263946533 treino4=1.404079 val4=1.670665 tokens/s=3366 tempo=3331.09s
+val64 passo=15000 treino=1.429378 validação=1.705796 externa=1.772265 melhor=1.705796@15000 overfit=0 sem_melhora=0
+passo=15250 minibatch=1.6091073751449585 treino4=1.402068 val4=1.678575 tokens/s=3365 tempo=3408.99s
+passo=15500 minibatch=1.5220085382461548 treino4=1.394050 val4=1.682683 tokens/s=3358 tempo=3506.14s
+val64 passo=15500 treino=1.419768 validação=1.705114 externa=1.771674 melhor=1.705114@15500 overfit=0 sem_melhora=500
+passo=15750 minibatch=1.5576525926589966 treino4=1.394870 val4=1.675635 tokens/s=3380 tempo=3561.42s
+passo=16000 minibatch=1.5394318103790283 treino4=1.398888 val4=1.664568 tokens/s=3406 tempo=3620.96s
+val64 passo=16000 treino=1.412149 validação=1.694052 externa=1.762730 melhor=1.694052@16000 overfit=0 sem_melhora=0
+passo=16250 minibatch=1.5474865436553955 treino4=1.388694 val4=1.677243 tokens/s=3431 tempo=3671.81s
+passo=16500 minibatch=1.516724705696106 treino4=1.388721 val4=1.665535 tokens/s=3455 tempo=3732.36s
+val64 passo=16500 treino=1.404343 validação=1.692508 externa=1.759928 melhor=1.692508@16500 overfit=0 sem_melhora=500
+passo=16750 minibatch=1.492598533630371 treino4=1.379470 val4=1.667243 tokens/s=3472 tempo=3790.05s
+passo=17000 minibatch=1.5569707155227661 treino4=1.381301 val4=1.663076 tokens/s=3488 tempo=3857.63s
+val64 passo=17000 treino=1.394322 validação=1.686129 externa=1.760451 melhor=1.686129@17000 overfit=0 sem_melhora=0
+passo=17250 minibatch=1.4971204996109009 treino4=1.379274 val4=1.668739 tokens/s=3503 tempo=3915.75s
+passo=17500 minibatch=1.6016651391983032 treino4=1.373034 val4=1.665264 tokens/s=3517 tempo=3984.51s
+val64 passo=17500 treino=1.384712 validação=1.687483 externa=1.759221 melhor=1.686129@17000 overfit=0 sem_melhora=500
+passo=17750 minibatch=1.488791823387146 treino4=1.380678 val4=1.664906 tokens/s=3532 tempo=4042.49s
+passo=18000 minibatch=1.4219398498535156 treino4=1.378067 val4=1.670472 tokens/s=3546 tempo=4110.12s
+val64 passo=18000 treino=1.383442 validação=1.687020 externa=1.762440 melhor=1.686129@17000 overfit=0 sem_melhora=1000
+passo=18250 minibatch=1.453484058380127 treino4=1.373216 val4=1.674310 tokens/s=3559 tempo=4168.09s
+passo=18500 minibatch=1.4996446371078491 treino4=1.369557 val4=1.659388 tokens/s=3573 tempo=4235.69s
+val64 passo=18500 treino=1.375107 validação=1.681781 externa=1.760675 melhor=1.681781@18500 overfit=0 sem_melhora=1500
+passo=18750 minibatch=1.5375598669052124 treino4=1.368860 val4=1.658123 tokens/s=3586 tempo=4293.67s
+passo=19000 minibatch=1.4541791677474976 treino4=1.362117 val4=1.660262 tokens/s=3597 tempo=4363.24s
+val64 passo=19000 treino=1.370204 validação=1.683490 externa=1.756944 melhor=1.681781@18500 overfit=0 sem_melhora=2000
+passo=19250 minibatch=1.4022226333618164 treino4=1.355788 val4=1.656859 tokens/s=3608 tempo=4422.21s
+passo=19500 minibatch=1.4662911891937256 treino4=1.357644 val4=1.654893 tokens/s=3620 tempo=4489.85s
+val64 passo=19500 treino=1.361188 validação=1.678863 externa=1.749160 melhor=1.678863@19500 overfit=0 sem_melhora=0
+passo=19750 minibatch=1.497381329536438 treino4=1.357098 val4=1.656714 tokens/s=3631 tempo=4547.64s
+passo=20000 minibatch=1.5263032913208008 treino4=1.357535 val4=1.662882 tokens/s=3643 tempo=4615.25s
+val64 passo=20000 treino=1.355994 validação=1.681975 externa=1.755256 melhor=1.678863@19500 overfit=0 sem_melhora=500
+Encerramento: limite_maximo no passo 20000.

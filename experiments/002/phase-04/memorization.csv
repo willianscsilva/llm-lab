@@ -1,0 +1,126 @@
+step,roles,prompt,seed,split,longest_chars,document,longest_text,covered_fraction_32
+5000,initial,A manhã,42,train,10,train/verba-testamentaria.txt, com as ma,0.0
+5000,initial,A manhã,42,validation,8,validation/a-chinela-turca.txt,"ento.
+
+E",0.0
+5000,initial,A manhã,42,external,9,parte-3-capitulo-1.txt,s com as ,0.0
+5000,initial,Era uma vez,42,train,12,train/iracema.txt, com o vinho,0.0
+5000,initial,Era uma vez,42,validation,10,validation/a-chinela-turca.txt, de uma ca,0.0
+5000,initial,Era uma vez,42,external,9,parte-1-capitulo-1.txt, com o vi,0.0
+5000,initial,O homem,42,train,10,train/o-emprestimo.txt,escada de ,0.0
+5000,initial,O homem,42,validation,8,validation/a-chinela-turca.txt,rimeiro ,0.0
+5000,initial,O homem,42,external,10,parte-3-capitulo-1.txt,escada de ,0.0
+5000,initial,Na cidade,42,train,12,train/iracema.txt, com o vinho,0.0
+5000,initial,Na cidade,42,validation,10,validation/a-chinela-turca.txt, de uma ca,0.0
+5000,initial,Na cidade,42,external,9,parte-1-capitulo-1.txt,amente na,0.0
+5000,initial,A manhã,123,train,11,train/iracema.txt,a do mais a,0.0
+5000,initial,A manhã,123,validation,10,validation/o-annel-de-polycrates.txt, cartas do,0.0
+5000,initial,A manhã,123,external,9,parte-2-capitulo-1.txt, de mais ,0.0
+5000,initial,Era uma vez,123,train,11,train/o-alienista.txt,m que o ali,0.0
+5000,initial,Era uma vez,123,validation,10,validation/o-annel-de-polycrates.txt, cartas do,0.0
+5000,initial,Era uma vez,123,external,10,parte-1-capitulo-1.txt,m que não ,0.0
+5000,initial,O homem,123,train,13,train/iracema.txt,"te amigo.
+
+--",0.0
+5000,initial,O homem,123,validation,11,validation/a-chinela-turca.txt, da morte a,0.0
+5000,initial,O homem,123,external,10,parte-1-capitulo-1.txt, de guerra,0.0
+5000,initial,Na cidade,123,train,13,train/iracema.txt,"te amigo.
+
+--",0.0
+5000,initial,Na cidade,123,validation,11,validation/a-chinela-turca.txt, da morte a,0.0
+5000,initial,Na cidade,123,external,9,parte-1-capitulo-1.txt,stamente ,0.0
+5000,initial,A manhã,2026,train,10,train/d-benedicta.txt,por que o ,0.0
+5000,initial,A manhã,2026,validation,9,validation/a-chinela-turca.txt,a foi de ,0.0
+5000,initial,A manhã,2026,external,11,parte-3-capitulo-1.txt, por que o ,0.0
+5000,initial,Era uma vez,2026,train,10,train/d-benedicta.txt, que o bei,0.0
+5000,initial,Era uma vez,2026,validation,8,validation/a-chinela-turca.txt,e e diss,0.0
+5000,initial,Era uma vez,2026,external,8,parte-1-capitulo-1.txt,nos que ,0.0
+5000,initial,O homem,2026,train,10,train/d-benedicta.txt,por que o ,0.0
+5000,initial,O homem,2026,validation,11,validation/o-espelho.txt, foi dado p,0.0
+5000,initial,O homem,2026,external,11,parte-3-capitulo-1.txt, por que o ,0.0
+5000,initial,Na cidade,2026,train,11,train/o-alienista.txt, em que con,0.0
+5000,initial,Na cidade,2026,validation,9,validation/a-chinela-turca.txt,s que ten,0.0
+5000,initial,Na cidade,2026,external,10,parte-3-capitulo-1.txt,am-se as m,0.0
+19500,best,A manhã,42,train,14,train/d-benedicta.txt," excellente.
+
+",0.0
+19500,best,A manhã,42,validation,13,validation/o-annel-de-polycrates.txt,o excellente.,0.0
+19500,best,A manhã,42,external,13,parte-2-capitulo-1.txt,as sciencias ,0.0
+19500,best,Era uma vez,42,train,13,train/o-alienista.txt, interrompeu ,0.0
+19500,best,Era uma vez,42,validation,13,validation/a-chinela-turca.txt, interrompeu ,0.0
+19500,best,Era uma vez,42,external,11,parte-3-capitulo-1.txt,o interromp,0.0
+19500,best,O homem,42,train,13,train/iracema.txt,as do coração,0.0
+19500,best,O homem,42,validation,11,validation/a-chinela-turca.txt,am desappar,0.0
+19500,best,O homem,42,external,11,parte-3-capitulo-1.txt, a minha qu,0.0
+19500,best,Na cidade,42,train,14,train/iracema.txt,"migo.
+
+Iracema",0.0
+19500,best,Na cidade,42,validation,12,validation/a-chinela-turca.txt,de todos os ,0.0
+19500,best,Na cidade,42,external,12,parte-1-capitulo-1.txt,de todos os ,0.0
+19500,best,A manhã,123,train,14,train/iracema.txt, a virgem que ,0.0
+19500,best,A manhã,123,validation,12,validation/o-espelho.txt,as proprias ,0.0
+19500,best,A manhã,123,external,12,parte-3-capitulo-1.txt,as proprias ,0.0
+19500,best,Era uma vez,123,train,15,train/iracema.txt,. A palavra do ,0.0
+19500,best,Era uma vez,123,validation,11,validation/o-espelho.txt,o contrario,0.0
+19500,best,Era uma vez,123,external,11,parte-1-capitulo-1.txt,o contrario,0.0
+19500,best,O homem,123,train,12,train/iracema.txt,bana de seu ,0.0
+19500,best,O homem,123,validation,11,validation/o-espelho.txt,"
+em que um ",0.0
+19500,best,O homem,123,external,11,parte-2-capitulo-1.txt,a tristeza ,0.0
+19500,best,Na cidade,123,train,18,train/o-alienista.txt,s que o alienista ,0.0
+19500,best,Na cidade,123,validation,11,validation/a-chinela-turca.txt,a mais que ,0.0
+19500,best,Na cidade,123,external,10,parte-1-capitulo-1.txt,onhecido p,0.0
+19500,best,A manhã,2026,train,18,train/iracema.txt,ra dos guerreiros ,0.0
+19500,best,A manhã,2026,validation,12,validation/a-chinela-turca.txt,ue era mais ,0.0
+19500,best,A manhã,2026,external,13,parte-3-capitulo-1.txt,s guerreiros ,0.0
+19500,best,Era uma vez,2026,train,21,train/iracema.txt, guerreiro Pytiguara ,0.0
+19500,best,Era uma vez,2026,validation,10,validation/a-chinela-turca.txt, á janella,0.0
+19500,best,Era uma vez,2026,external,11,parte-2-capitulo-1.txt, á janella ,0.0
+19500,best,O homem,2026,train,16,train/verba-testamentaria.txt,"erreiros, e do v",0.0
+19500,best,O homem,2026,validation,12,validation/o-espelho.txt,"o
+movimento ",0.0
+19500,best,O homem,2026,external,10,parte-3-capitulo-1.txt,"
+movimento",0.0
+19500,best,Na cidade,2026,train,13,train/d-benedicta.txt,"alguma cousa
+",0.0
+19500,best,Na cidade,2026,validation,13,validation/o-espelho.txt,"alguma cousa
+",0.0
+19500,best,Na cidade,2026,external,12,parte-1-capitulo-1.txt,alguma cousa,0.0
+20000,"snapshot,final",A manhã,42,train,15,train/a-serenissima-republica.txt,sa de todos os ,0.0
+20000,"snapshot,final",A manhã,42,validation,13,validation/a-chinela-turca.txt, de todos os ,0.0
+20000,"snapshot,final",A manhã,42,external,13,parte-1-capitulo-1.txt, de todos os ,0.0
+20000,"snapshot,final",Era uma vez,42,train,20,train/iracema.txt,o guerreiro branco d,0.0
+20000,"snapshot,final",Era uma vez,42,validation,11,validation/a-chinela-turca.txt,turalmente ,0.0
+20000,"snapshot,final",Era uma vez,42,external,12,parte-3-capitulo-1.txt,o branco do ,0.0
+20000,"snapshot,final",O homem,42,train,15,train/a-serenissima-republica.txt,sa de todos os ,0.0
+20000,"snapshot,final",O homem,42,validation,13,validation/a-chinela-turca.txt, de todos os ,0.0
+20000,"snapshot,final",O homem,42,external,13,parte-1-capitulo-1.txt, de todos os ,0.0
+20000,"snapshot,final",Na cidade,42,train,14,train/iracema.txt,":
+
+--A virgem ",0.0
+20000,"snapshot,final",Na cidade,42,validation,13,validation/a-chinela-turca.txt,ar-lhe a visi,0.0
+20000,"snapshot,final",Na cidade,42,external,11,parte-2-capitulo-1.txt, alegria do,0.0
+20000,"snapshot,final",A manhã,123,train,13,train/a-serenissima-republica.txt, do espirito ,0.0
+20000,"snapshot,final",A manhã,123,validation,12,validation/a-chinela-turca.txt,"eu coração, ",0.0
+20000,"snapshot,final",A manhã,123,external,11,parte-1-capitulo-1.txt,o espirito ,0.0
+20000,"snapshot,final",Era uma vez,123,train,20,train/iracema.txt, guerreiro Pytiguara,0.0
+20000,"snapshot,final",Era uma vez,123,validation,11,validation/o-espelho.txt,ente que o ,0.0
+20000,"snapshot,final",Era uma vez,123,external,15,parte-1-capitulo-1.txt,onhecimento de ,0.0
+20000,"snapshot,final",O homem,123,train,15,train/d-benedicta.txt,a naturalmente ,0.0
+20000,"snapshot,final",O homem,123,validation,15,validation/o-annel-de-polycrates.txt,a naturalmente ,0.0
+20000,"snapshot,final",O homem,123,external,15,parte-2-capitulo-1.txt,a naturalmente ,0.0
+20000,"snapshot,final",Na cidade,123,train,14,train/iracema.txt,"a de Jacaúna, ",0.0
+20000,"snapshot,final",Na cidade,123,validation,10,validation/a-chinela-turca.txt, parecia t,0.0
+20000,"snapshot,final",Na cidade,123,external,11,parte-3-capitulo-1.txt,o parecia t,0.0
+20000,"snapshot,final",A manhã,2026,train,15,train/d-benedicta.txt,s do candidato ,0.0
+20000,"snapshot,final",A manhã,2026,validation,13,validation/o-annel-de-polycrates.txt, em que elle ,0.0
+20000,"snapshot,final",A manhã,2026,external,12,parte-2-capitulo-1.txt,o candidato ,0.0
+20000,"snapshot,final",Era uma vez,2026,train,21,train/iracema.txt, guerreiro Pytiguara ,0.0
+20000,"snapshot,final",Era uma vez,2026,validation,11,validation/o-annel-de-polycrates.txt,", e depois ",0.0
+20000,"snapshot,final",Era uma vez,2026,external,12,parte-2-capitulo-1.txt,tão não sabe,0.0
+20000,"snapshot,final",O homem,2026,train,14,train/o-alienista.txt,iencias de um ,0.0
+20000,"snapshot,final",O homem,2026,validation,16,validation/o-espelho.txt, todos os olhos ,0.0
+20000,"snapshot,final",O homem,2026,external,12,parte-2-capitulo-1.txt,ncias de um ,0.0
+20000,"snapshot,final",Na cidade,2026,train,17,train/o-alienista.txt,r que o barbeiro ,0.0
+20000,"snapshot,final",Na cidade,2026,validation,12,validation/a-chinela-turca.txt, um grande a,0.0
+20000,"snapshot,final",Na cidade,2026,external,12,parte-2-capitulo-1.txt, scientifico,0.0

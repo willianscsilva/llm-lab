@@ -1,0 +1,295 @@
+{
+  "config": {
+    "vocab_size": 101,
+    "context": 128,
+    "width": 128,
+    "layers": 4,
+    "heads": 4,
+    "dropout": 0.1
+  },
+  "document_sha256": {
+    "train/a-serenissima-republica.txt": "5c37a9ca0117a6038b349cc8147125440da2de284ddad386be4b081079e72214",
+    "train/d-benedicta.txt": "41d5db4c5703337d09b08b17171cfeb0ee7447f3a768f32852c56fcaa9c9dc64",
+    "train/iracema.txt": "fcaf5aa0d3b487136f814c1c190d6a2a702e1d64151b27da361de0b0b213ab44",
+    "train/na-arca.txt": "3a3a1a19f3ffe4ee96c9b26b099fcea3e8ecb14a279ac4ca57e0edb46ea0a5ad",
+    "train/o-alienista.txt": "f38ae27dc64a706dc2430cae51aff0f6ccf29a73b1e5ee711c203f3a2471fe87",
+    "train/o-emprestimo.txt": "aa32e57583913e6ef4127944ce9ffd2960c83b0a4e5136390194c7734c2728ca",
+    "train/o-segredo-do-bonzo.txt": "07e1bf369e66daa18359d8e57454503ca3c8821c46c0eccc7a276f5ce6bab9d0",
+    "train/theoria-do-medalhao.txt": "ad34afe3e49affadcf5c4fcd5854f1e9bfd6a7dc0c23639387feba11eb3bf66b",
+    "train/uma-visita-de-alcibiades.txt": "53eb914e62e013bb109ac86df95b34845ce2e82223e3302f025552990e632baf",
+    "train/verba-testamentaria.txt": "e57406df563cf04fb07646492a4e44c0dc603fa08d52d978c5676575f4160f94",
+    "validation/a-chinela-turca.txt": "fc1231a65fa46a790a00fdb06ead9a61364f4a7a38025e5372f6ccc61a3c2a05",
+    "validation/o-annel-de-polycrates.txt": "96f471528707f2d15e125a6c4b2d10b5b4114a695b63ff19ac848279c25569eb",
+    "validation/o-espelho.txt": "4252f97236818069f7256a3b919ff928f871b7af0127cc20a83d3e7087281607"
+  },
+  "threads": 2,
+  "batch_size": 8,
+  "seed": 42,
+  "origin_commit": "7391639d869077b0e32c74cf03b592f2238b4756",
+  "torch_version": "2.14.1+cpu",
+  "parameters": 835685,
+  "device": "cpu",
+  "optimizer": "AdamW",
+  "learning_rate": 0.0003,
+  "adamw": {
+    "lr": 0.0003,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.01,
+    "amsgrad": false,
+    "maximize": false,
+    "foreach": null,
+    "capturable": false,
+    "differentiable": false,
+    "fused": null,
+    "decoupled_weight_decay": true
+  },
+  "resume_checkpoint": "checkpoints/experiment-002-phase3/model-5000.pt",
+  "start_step": 5000,
+  "maximum_step": 20000,
+  "snapshots": [
+    7500,
+    10000,
+    12500,
+    15000,
+    17500,
+    20000
+  ],
+  "evaluation_intervals": {
+    "4": 250,
+    "64": 500
+  },
+  "evaluation_seeds": {
+    "train": 44,
+    "validation": 43,
+    "external": 45
+  },
+  "external_sha256": {
+    "experiments/002/phase-03/external/parte-1-capitulo-1.txt": "c86fb2abe4282f0187b47b01450efd326e70bf2926388de0008617bf81f236ab",
+    "experiments/002/phase-03/external/parte-2-capitulo-1.txt": "d2d9c45036158a0147dd8f8bfed60fbe1c7dfa14729eb706e789b7b8c5d91f4f",
+    "experiments/002/phase-03/external/parte-3-capitulo-1.txt": "a5d08019cd171ab85190729cb3f2aa6c0eee77eca72c220bcd4e7d4640040a5e"
+  },
+  "checkpoint_history_sha256": {
+    "checkpoints/continuous.pt": "32df04d7db133e134cb8c5267cb2d74e67d7ed0e58affe6520d4fc45b5e6560b",
+    "checkpoints/experiment-002-0000.pt": "e24fc1be90cffcd36f39107ea829edf655ba543d3878104defb23a03474cedfa",
+    "checkpoints/experiment-002-0050.pt": "3d5965dd856021055cc39609fc162e196fb2830e7d0b14f33931c66960352807",
+    "checkpoints/experiment-002-0100.pt": "a2e7b97caa649d272052b2e79406e4fce501334460d95ea6242781386c36c00c",
+    "checkpoints/experiment-002-phase2/model-0250.pt": "5abe902713092503dad3d76d2cd0424e7eb5cb21a11289133e9cc45745ce6ab0",
+    "checkpoints/experiment-002-phase2/model-0500.pt": "65ad89a515980821715ebc8b224c25d52b51917d52907913a0d892bf25cec572",
+    "checkpoints/experiment-002-phase2/model-0750.pt": "5bab28897c1794fe00d14232eedd890fd92ae20b6c8a5ed054c678c6600d0ff9",
+    "checkpoints/experiment-002-phase2/model-1000.pt": "8e3ca99d620a9dd770f83152eedfcf4f1f5bad9103d446ab8f2a60bc4d2cdd41",
+    "checkpoints/experiment-002-phase2/model.pt": "24702c1bedcc32cebe7fa19e49bee5148e075e31d9e95e0556b8d9e62e430032",
+    "checkpoints/experiment-002.pt": "a65066af9e7b7f054eccf4806a5b0acd80f35331c38de5179e2060ea466d2e5e",
+    "checkpoints/resumed.pt": "938a15f0dfaaa80a8ad18274cba4a23419cf640769441e1ab0142112a6a38a95",
+    "checkpoints/smoke.pt": "c29b12fca34f0c887363bfbb669d25dbb0ac30f0ef972d6b2fa171c41ceff721",
+    "checkpoints/experiment-002-phase3/model-2000.pt": "c0704ab9425405f87116ef27a29a235c3409e17e5c328402cbd3f4040d27328f",
+    "checkpoints/experiment-002-phase3/model-3000.pt": "9ac2e6b9d2527eb3f327c6591467d019c753b1d83eedbfface8e7b84de03e7b6",
+    "checkpoints/experiment-002-phase3/model-4000.pt": "aff6667ae78b080462b2fe0a58325330cda12afa696eb4b630bb4ec12e276868",
+    "checkpoints/experiment-002-phase3/model-5000.pt": "e946adcb531aba7e7f4789c003e5ff3f35ecaf219b2c21aa885ca9fffcc2ad1c",
+    "checkpoints/experiment-002-phase3/model.pt": "5e97729083207043bde5bf87256ecd35c5f1c084f377c21e44dd116885dc6d16"
+  },
+  "stop": {
+    "split": "validation",
+    "batches": 64,
+    "overfit_margin": 0.02,
+    "overfit_count": 4,
+    "significant_improvement": 0.005,
+    "steps_without_significant_improvement": 3000
+  },
+  "context_prompts": {
+    "historical": [
+      {
+        "prompts": [
+          "O homem",
+          "Na cidade"
+        ]
+      },
+      {
+        "prompts": [
+          "O homem",
+          "A mulher"
+        ]
+      },
+      {
+        "prompts": [
+          "A manhã",
+          "A noite"
+        ]
+      }
+    ],
+    "matched": [
+      {
+        "prompts": [
+          "O menino estava com",
+          "O médico estava com"
+        ],
+        "suffix": " estava com",
+        "suffix_length": 11
+      },
+      {
+        "prompts": [
+          "Na floresta havia um",
+          "Na montanha havia um"
+        ],
+        "suffix": " havia um",
+        "suffix_length": 9
+      },
+      {
+        "prompts": [
+          "O soldado pegou a",
+          "Um pintor pegou a"
+        ],
+        "suffix": " pegou a",
+        "suffix_length": 8
+      },
+      {
+        "prompts": [
+          "Ela estava muito",
+          "Ele estava muito"
+        ],
+        "suffix": " estava muito",
+        "suffix_length": 13
+      }
+    ],
+    "distance": [
+      {
+        "target_length": 8,
+        "prompts": [
+          "O menino passou ",
+          "O médico passou "
+        ],
+        "suffix": " passou ",
+        "suffix_length": 8
+      },
+      {
+        "target_length": 8,
+        "prompts": [
+          "O soldado passou ",
+          "Um pintor passou "
+        ],
+        "suffix": " passou ",
+        "suffix_length": 8
+      },
+      {
+        "target_length": 8,
+        "prompts": [
+          "Ela passou ",
+          "Ele passou "
+        ],
+        "suffix": " passou ",
+        "suffix_length": 8
+      },
+      {
+        "target_length": 16,
+        "prompts": [
+          "O menino chegou em casa ",
+          "O médico chegou em casa "
+        ],
+        "suffix": " chegou em casa ",
+        "suffix_length": 16
+      },
+      {
+        "target_length": 16,
+        "prompts": [
+          "O soldado chegou em casa ",
+          "Um pintor chegou em casa "
+        ],
+        "suffix": " chegou em casa ",
+        "suffix_length": 16
+      },
+      {
+        "target_length": 16,
+        "prompts": [
+          "Ela chegou em casa ",
+          "Ele chegou em casa "
+        ],
+        "suffix": " chegou em casa ",
+        "suffix_length": 16
+      },
+      {
+        "target_length": 32,
+        "prompts": [
+          "O menino entrou na sala e ficou em pé ",
+          "O médico entrou na sala e ficou em pé "
+        ],
+        "suffix": " entrou na sala e ficou em pé ",
+        "suffix_length": 30
+      },
+      {
+        "target_length": 32,
+        "prompts": [
+          "O soldado entrou na sala e ficou em pé ",
+          "Um pintor entrou na sala e ficou em pé "
+        ],
+        "suffix": " entrou na sala e ficou em pé ",
+        "suffix_length": 30
+      },
+      {
+        "target_length": 32,
+        "prompts": [
+          "Ela entrou na sala e ficou em pé ",
+          "Ele entrou na sala e ficou em pé "
+        ],
+        "suffix": " entrou na sala e ficou em pé ",
+        "suffix_length": 30
+      },
+      {
+        "target_length": 64,
+        "prompts": [
+          "O menino voltou para casa, abriu a porta da sala e encontrou sobre a mesa ",
+          "O médico voltou para casa, abriu a porta da sala e encontrou sobre a mesa "
+        ],
+        "suffix": " voltou para casa, abriu a porta da sala e encontrou sobre a mesa ",
+        "suffix_length": 66
+      },
+      {
+        "target_length": 64,
+        "prompts": [
+          "O soldado voltou para casa, abriu a porta da sala e encontrou sobre a mesa ",
+          "Um pintor voltou para casa, abriu a porta da sala e encontrou sobre a mesa "
+        ],
+        "suffix": " voltou para casa, abriu a porta da sala e encontrou sobre a mesa ",
+        "suffix_length": 66
+      },
+      {
+        "target_length": 64,
+        "prompts": [
+          "Ela voltou para casa, abriu a porta da sala e encontrou sobre a mesa ",
+          "Ele voltou para casa, abriu a porta da sala e encontrou sobre a mesa "
+        ],
+        "suffix": " voltou para casa, abriu a porta da sala e encontrou sobre a mesa ",
+        "suffix_length": 66
+      },
+      {
+        "target_length": 96,
+        "prompts": [
+          "O menino acordou cedo, abriu a janela e viu que a chuva tinha parado. Depois saiu de casa para buscar ",
+          "O médico acordou cedo, abriu a janela e viu que a chuva tinha parado. Depois saiu de casa para buscar "
+        ],
+        "suffix": " acordou cedo, abriu a janela e viu que a chuva tinha parado. Depois saiu de casa para buscar ",
+        "suffix_length": 94
+      },
+      {
+        "target_length": 96,
+        "prompts": [
+          "O soldado acordou cedo, abriu a janela e viu que a chuva tinha parado. Depois saiu de casa para buscar ",
+          "Um pintor acordou cedo, abriu a janela e viu que a chuva tinha parado. Depois saiu de casa para buscar "
+        ],
+        "suffix": " acordou cedo, abriu a janela e viu que a chuva tinha parado. Depois saiu de casa para buscar ",
+        "suffix_length": 94
+      },
+      {
+        "target_length": 96,
+        "prompts": [
+          "Ela acordou cedo, abriu a janela e viu que a chuva tinha parado. Depois saiu de casa para buscar ",
+          "Ele acordou cedo, abriu a janela e viu que a chuva tinha parado. Depois saiu de casa para buscar "
+        ],
+        "suffix": " acordou cedo, abriu a janela e viu que a chuva tinha parado. Depois saiu de casa para buscar ",
+        "suffix_length": 94
+      }
+    ]
+  }
+}

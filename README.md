@@ -43,4 +43,4 @@ O corpus tem 444.089 caracteres e 13 documentos. Inclui 12 contos de Machado de 
 
 A fase 2 retomou o checkpoint 100 com o AdamW e os geradores aleatórios restaurados. Em 64 lotes fixos de validação, a loss foi 4,7734 no passo 0, 2,6715 no passo 100 e 2,4212 no passo 1.000. A perplexidade final nessa avaliação foi 11,26. As duas avaliações medem previsão de caracteres em prosa literária do século XIX.
 
-Os logs, métricas, configurações, amostras e resultados da retomada até o passo 5.000 estão no [arquivo do Experimento 002](experiments/002/README.md).
+Os logs, métricas, configurações, amostras e resultados até o passo 20.000 estão no [arquivo do Experimento 002](experiments/002/README.md).
