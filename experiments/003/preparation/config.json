@@ -1,0 +1,35 @@
+{
+  "origin_commit": "02817c6b9b33cb03a437d8ef5acd1a3fa3f13f1c",
+  "python": "3.10.4",
+  "dependencies": {
+    "pipeline": "biblioteca padrão",
+    "vocabulario": "PyTorch local"
+  },
+  "seed": "003",
+  "vocabulary_sha256": "69854c4f1a057629acbaa02e881579cdda4916332c3dbd505b593a897d6db694",
+  "limits": {
+    "download_bytes": 524288000,
+    "disk_bytes": 2147483648,
+    "memory_bytes": 2147483648,
+    "seconds": 21600
+  },
+  "http_concurrency": 1,
+  "requests_per_domain_min_seconds": 1,
+  "targets": [
+    5000000,
+    7000000,
+    10000000
+  ],
+  "thematic_targets": {
+    "literatura": 0.3,
+    "enciclopédico": 0.25,
+    "científico e educacional": 0.2,
+    "histórico e institucional": 0.15,
+    "diálogos e cotidiano": 0.1
+  },
+  "unknown_reference": 0.001,
+  "tolerance": 0.02,
+  "evaluation_target": 500000,
+  "evaluation_max_work_fraction": 0.4,
+  "evaluation_max_category_supply_fraction": 0.2
+}

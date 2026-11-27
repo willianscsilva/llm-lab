@@ -225,3 +225,7 @@ __marimo__/
 
 # Checkpoints gerados pelo treinamento
 /checkpoints/
+
+# Corpus Lab: dados locais aguardando revisão de redistribuição
+/experiments/003/preparation/local/
+!/experiments/003/preparation/acquisition.log
